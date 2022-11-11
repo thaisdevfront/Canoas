@@ -1,0 +1,67 @@
+.validation{
+    background-image: url(../images/bg-validation.png) ;
+    background-repeat:repeat ;
+    background-size: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color:white;
+    padding:0px;
+    z-index: 999;
+}
+
+.validation  span.number {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 200;
+
+}
+.validation .content {
+    width: 100%;
+    margin: auto;
+} 
+.validation .content span {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+.validation .content h1 {
+    font-weight: 300;
+    margin: 50px 0 0;
+    padding: 20px;
+}
+.validation .content strong {
+    font-weight: 300;
+}
+.validation .content img {
+    display: block;
+    margin: 0 auto;
+    width: 215px;
+}
+.validation .content p{
+    font-size: 11px;
+    width: 180px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.validation form {
+    width: 85%;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+.validation   button {
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+    background-color: #00A8EC;
+    color: white;
+    height: 35px;
+    border-radius: 40px;
+
+}

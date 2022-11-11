@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    background:transparent;
+    border:0;
+}
+
+.categories {
+    margin: 20px auto;
+}
+.produto {
+    margin: 10px auto;
+}
+h2 {
+    padding: 0px 20px;
+    font-size: 25px;
+    width: 200px;
+    color: #F0B503;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.controls button {
+    /* background: red; */
+    margin: 20px 10px;
+    color: #f39c12;
+}

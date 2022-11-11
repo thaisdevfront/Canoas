@@ -1,0 +1,64 @@
+.cart{
+    position: fixed;
+    background: #f3f3f3;
+    height: 100%;
+    left: 0;
+    width: 100%;
+    top: 0;
+    display: none;
+    padding: 50px 0;
+    z-index: 999;   
+}
+
+.showCart{ 
+    display: block;
+}
+span.qtdIcon {
+    position: absolute;
+    background: #f0b503;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    margin: 0 18px;
+    font-size: 10px;
+}
+
+.total{
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: white;
+    flex-direction: column;
+    padding: 25px 0;
+ 
+}
+.total button {
+    background: #33ebaf;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 25px;
+    margin: 10px auto;
+}
+.cartProduct {
+    display: flex;
+    margin: 20px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 0;
+}
+.cartProduct{
+    display: flex;
+    margin: 0px;
+}
+.cartProduct div:first-child {
+    margin: 0 10px;
+}
