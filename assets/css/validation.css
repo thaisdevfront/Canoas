@@ -56,13 +56,28 @@
     bottom: 50px;
     left: 20px;
 }
+form img {
+    margin-top: 13px;
+    position: absolute;
+    z-index: 9999;
+    width: 14px;
+    left: 10px;
+ 
+}select:invalid { color: red; }
 .validation   button {
     width: 150px;
     margin: 10px auto;
     display: block;
-    background-color: #00A8EC;
+    background-color: #FB6E3B;
     color: white;
     height: 35px;
     border-radius: 40px;
+    position: relative;
 
+}
+
+.validation button img {
+    left: inherit;
+    right: 30px;
+    margin: 0;
 }

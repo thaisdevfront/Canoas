@@ -20,17 +20,19 @@ select {
     outline: 0;
     flex: 1;
     background-image: none;
+    padding-left: 28px;
    }
 
 input:focus-visible {
     outline: -webkit-focus-ring-color auto 0px;
 }
 
-input::placeholder {
+input::placeholder,select::placeholder  {
     font-weight: bold;
     opacity: .5;
     color:#8B9398;
-
+    padding-left: 10%;
+    margin-left: 10%;
     opacity: 1;
     font-weight: 300;
     font-family: 'Lexend Deca', sans-serif;
