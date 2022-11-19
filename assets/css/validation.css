@@ -40,7 +40,7 @@
 .validation .content img {
     display: block;
     margin: 0 auto;
-    width: 215px;
+    width: 250px;
 }
 .validation .content p{
     font-size: 11px;
@@ -57,14 +57,13 @@
     left: 20px;
 }
 form img {
-    margin-top: 13px;
+    margin-top: 15px;
     position: absolute;
     z-index: 9999;
     width: 14px;
-    left: 10px;
- 
+    left: 12px;
 }select:invalid { color: red; }
-.validation   button {
+.validation button {
     width: 150px;
     margin: 10px auto;
     display: block;
@@ -73,9 +72,15 @@ form img {
     height: 35px;
     border-radius: 40px;
     position: relative;
-
+    width: 190px;
+    margin: 15px auto;
+    display: block;
+    background-color: #FB6E3B;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
 }
-
 .validation button img {
     left: inherit;
     right: 30px;
