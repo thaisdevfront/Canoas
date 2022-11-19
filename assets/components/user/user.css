@@ -23,7 +23,7 @@
 
   border:1px solid #adadad;
 }
-select {
+/* select {
   appearance: none;
   outline: 0;
   border: 0;
@@ -41,7 +41,7 @@ select {
   font-family: 'Lexend Deca', sans-serif;
   color:#8B9398;
 
-}
+} */
  
 
   /* Remove IE arrow */
@@ -49,15 +49,7 @@ select {
     display: none;
   }
   /* Custom Select wrapper */
-  .select {
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: auto;
-    border-radius: 0.25em;
-    overflow: hidden;
-    margin: 5px auto;
-  }
+ 
   /* Arrow */
   .select::after {
     content: '\25BC';

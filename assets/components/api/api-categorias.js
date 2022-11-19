@@ -142,67 +142,86 @@ data = [{
             products:[{
                 id:'112',
                 name:'Hot Dog', 
-                price:18,
+                img:'assets/images/produtos/hotdog.png',  
+                price:20,
                 quantidade:0, 
             } 
         ]
         },{ 
             id:'03',
-            name:'Pasteis',
+            name:'Pastéis',
             products:[{
-                id:'090',
+                id:'90',
                 name:'Pastel Carne ', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
                 price:13,
                 quantidade:0,
             },{
-                id:'091',
+                id:'91',
                 name:'Pastel Queijo', 
+                img:'assets/images/produtos/pastelqueijo.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'092',
+                id:'92',
                 name:'Pastel Bauru', 
+                img:'assets/images/produtos/pastelbauru.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'093',
+                id:'93',
                 name:'Pastel Calabresa', 
+                img:'assets/images/produtos/pastelcalabresa.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'094',
+                id:'94',
                 name:'Pastel Frango', 
+                img:'assets/images/produtos/pastelfrango.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'095',
+                id:'95',
                 name:'Pastel Pizza', 
+                img:'assets/images/produtos/pastelpizza.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'096',
+                id:'96',
                 name:'Pastel Brócolis', 
+                img:'assets/images/produtos/pastelbrocolis.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'098',
+                id:'98',
                 name:'Pastel Carne com Queijo', 
+                img:'assets/images/produtos/pastelcarnequeijo.png',  
+
                 price:15,
                 quantidade:0,
             },{
-                id:'014',
+                id:'14',
                 name:'Pastel Brócolis com Queijo', 
-                price:12,
+                img:'assets/images/produtos/pastelbrocolisqueijo.png',  
+
+                price:14,
                 quantidade:0,
             },{
                 id:'100',
-                name:'Frango com Catupiry', 
+                name:'Pastel Frango com Catupiry', 
                 price:14,
                 quantidade:0,
             },{
                 id:'101',
                 name:'Pastel Palmito', 
-                price:13,
+                price:12,
                 quantidade:0,
             },{
                 id:'101',
@@ -211,60 +230,264 @@ data = [{
                 quantidade:0,
             }
         ]
-        },{ 
+        } ,{  
             id:'04',
-            name:'Panquecas',
+            name:'Pastéis Doces',
             products:[{
-                id:'030',
-                name:'Panqueca Carne ', 
-                price:13,
-                quantidade:0,
-            },{
-                id:'031',
-                name:'Panqueca Queijo', 
+                id:'103',
+                name:'Pastel Banana com Nutella', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
                 price:12,
                 quantidade:0,
             },{
-                id:'032',
-                name:'Panqueca Bauru', 
-                price:12,
-                quantidade:0,
-            },{
-                id:'033',
-                name:'Panqueca Frango', 
-                price:12,
-                quantidade:0,
-            },{
-                id:'035',
-                name:'Panqueca Brócolis', 
-                price:12,
-                quantidade:0,
-            },{
-                id:'098',
-                name:'Panqueca Carne com Queijo', 
-                price:15,
-                quantidade:0,
-            },{
-                id:'014',
-                name:'Panqueca Brócolis com Queijo', 
-                price:12,
-                quantidade:0,
-            },{
-                id:'100',
-                name:'Frango com Catupiry', 
+                id:'104',
+                name:'Pastel Chocolate com Nutella', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
                 price:14,
                 quantidade:0,
             },{
-                id:'101',
-                name:'Panqueca Palmito', 
-                price:13,
+                id:'105',
+                name:'Pastel Chocolate com Banana', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:15,
                 quantidade:0,
             },{
-                id:'101',
-                name:'Panqueca Camarão', 
+                id:'106',
+                name:'Pastel Chocolate com Morango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:15,
+                quantidade:0,
+            },{
+                id:'107',
+                name:'Pastel Leite Condensado c/ Coco', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'108',
+                name:'Pastel Nutella com Morango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
                 price:16,
                 quantidade:0,
-            }
+            },{
+                id:'109',
+                name:'Pastel Nutella com Banana', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            }       
+        ]
+        } ,{  
+            id:'05',
+            name:'Tapiocas',
+            products:[{
+                id:'60',
+                name:'Tapioca Carne', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'61',
+                name:'Tapioca Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'62',
+                name:'Tapioca Bauru', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'63',
+                name:'Tapioca Frango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'64',
+                name:'Tapioca Pizza', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'65',
+                name:'Tapioca Brócolis', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'67',
+                name:'Tapioca Carne com Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'68',
+                name:'Tapioca Brócolis com Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'69',
+                name:'Tapioca Frango com Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'70',
+                name:'Tapioca Palmito', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'71',
+                name:'Tapioca Camarão', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            }       
+        ]
+        } ,{  
+            id:'06',
+            name:'Tapiocas Doces',
+            products:[{
+                id:'72',
+                name:'Tapioca Banana com Canela', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'73',
+                name:'Tapioca Chocolate / Nutella', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:16,
+                quantidade:0,
+            },{
+                id:'74',
+                name:'Tapioca Chocolate com Banana', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:17,
+                quantidade:0,
+            },{
+                id:'75',
+                name:'Tapioca Chocolate com Morango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:17,
+                quantidade:0,
+            },{
+                id:'76',
+                name:'Tapioca Leite Condensado c/ Coco', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:18,
+                quantidade:0,
+            },{
+                id:'77',
+                name:'Tapioca Nutella com Morango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:17,
+                quantidade:0,
+            },{
+                id:'78',
+                name:'Tapioca Nutella com Banana', 
+                img:'assets/images/produtos/pastelcarne.png',  
+                price:18,
+                quantidade:0,
+            }       
+        ]
+        },{  
+            id:'07',
+            name:'Panquecas',
+            products:[{
+                id:'30',
+                name:'Panqueca Carne', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'31',
+                name:'Panqueca Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'32',
+                name:'Panqueca Bauru', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'33',
+                name:'Panqueca Frango', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'34',
+                name:'Panqueca Pizza', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'37',
+                name:'Panqueca Carne com Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'38',
+                name:'Panqueca Brócolis com Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'39',
+                name:'Panqueca Frango com Catupiry', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            },{
+                id:'40',
+                name:'Panqueca Palmito', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:16,
+                quantidade:0,
+            },{
+                id:'41',
+                name:'Panqueca Camarão', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:18,
+                quantidade:0,
+            }       
         ]
         }
 
@@ -276,46 +499,46 @@ data = [{
     image:'<i class="fa-solid fa-martini-glass"></i>',
 
         itens:[{ 
-            id:'04',
+            id:'4',
             name:'Bebidas', 
             products:[{
-                id:'001',
+                id:'1',
                 key:'',
                 name:'Água com Gás', 
                 price:5,
                 quantidade:0, 
             },{
-                id:'002',
+                id:'2',
                 key:'',
                 name:'Água sem Gás', 
                 price:4,
                 quantidade:0, 
             },{
-                id:'003',
+                id:'3',
                 key:'',
                 name:'H20 Limão', 
                 price:7,
                 quantidade:0, 
             },{
-                id:'005',
+                id:'5',
                 key:'',
                 name:'Refrigerante lata', 
                 price:6,
                 quantidade:0, 
             },{
-                id:'002',
+                id:'2',
                 key:'',
                 name:'Refrigerante Zero lata ', 
                 price:7,
                 quantidade:0, 
             },{
-                id:'007',
+                id:'7',
                 key:'',
                 name:'Sweppes', 
                 price:7,
                 quantidade:0, 
             },{
-                id:'009',
+                id:'9',
                 key:'',
                 name:'Copo com Gelo', 
                 price:3,
@@ -404,7 +627,7 @@ data = [{
 
             }]
         },{ 
-            id:'06',
+            id:'6',
             name:'Mais',
             products:[{
                 id:'001',
@@ -413,7 +636,7 @@ data = [{
                 quantidade:0, 
 
             },{
-                id:'002',
+                id:'2',
                 name:'lula', 
                 price:75,
                 quantidade:0, 
