@@ -659,7 +659,7 @@ var categoriesContainer=document.getElementById('categories')
          
         container.childNodes[1].innerHTML += ` 
 
-            <button class="tablinks" onclick="openCity(event, '`+apiData.id +`')">
+            <button key="`+apiData.id+`" class="tablinks" onclick="openCity(event, '`+apiData.id +`')">
                 <img src=" `+apiData.image +`" alt="">
                 `+apiData.name +`
             </button>
@@ -868,8 +868,7 @@ var categoriesContainer=document.getElementById('categories')
   tabcontent[0].style.cssText="display:block"
   tabcontent[3].style.cssText="display:block"
   tablinks[0].setAttribute("class", "tablinks active")
-  console.log(tabcontent)
-  console.log(tablinks)
+ 
     
    
          
