@@ -1,4 +1,5 @@
 .validation{
+    background-image: url(../images/bg-validation.png) ;
     background-repeat:repeat ;
     background-size: cover; 
     position: fixed;
@@ -21,8 +22,7 @@
 .validation .content {
     width: 100%;
     margin: auto;
-    padding-top: 40%;
-}
+} 
 .validation .content span {
     display: block;
     margin: 10px auto;
@@ -39,7 +39,7 @@
 .validation .content img {
     display: block;
     margin: 0 auto;
-    width: 250px;
+    width: 215px;
 }
 .validation .content p{
     font-size: 11px;
@@ -55,34 +55,13 @@
     bottom: 50px;
     left: 20px;
 }
-form img {
-    margin-top: 15px;
-    position: absolute;
-    z-index: 9999;
-    width: 14px;
-    left: 14px;
-}select:invalid { color: red; }
-.validation button {
+.validation   button {
     width: 150px;
     margin: 10px auto;
     display: block;
-    background-color: #FB6E3B;
+    background-color: #00A8EC;
     color: white;
     height: 35px;
     border-radius: 40px;
-    position: relative;
-    width: 190px;
-    margin: 15px auto;
-    display: block;
-    background-color: #FB6E3B;
-    color: white;
-    height: 40px;
-    border-radius: 40px;
-    position: relative;
-}
-.validation button img {
-    left: inherit;
-    right: inherit;
-    margin: 0;
-    padding: 1px 3px;
+
 }
