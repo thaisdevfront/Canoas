@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="assets/components/categorias/categorias.css">  
     <link rel="stylesheet" href="assets/components/product/product.css">  
     <link rel="stylesheet" href="assets/components/mediasocial/mediasocial.css">  
+    <link rel="stylesheet" href="assets/components/swiper/swiper.css">  
+    <link rel="stylesheet" href="assets/components/banners/banners.css">  
+
  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,14 +88,25 @@
         <h2>O que deseja pedir hoje?</h2>
 
         <form>
-            <img src="assets/images/search.png" alt="" srcset="">
+            <img src="assets/images/search.png" alt="">
             <input type="text" placeholder="Buscar itens...">
             <i class="fa-solid fa-arrow-right"></i>
         </form>
         <div id="result"></div>
      </div>
-
-    
+     <div class="banners">
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/banners/banner1.png" alt="" >
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide">Slide 3</div>
+          
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
     <div id="categories" class="categories"> </div>
    
     
@@ -101,6 +115,9 @@
  <script src="assets/components/api/api-categorias.js"></script>
  <script src="assets/js/validation.js"></script>
  <script src="assets/js/cart.js"></script>
+ <script src="assets/components/swiper/swiper.js"></script>
+ <script src="assets/js/app.js"></script>
+
 
     
 </body>

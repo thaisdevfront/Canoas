@@ -17,7 +17,8 @@ justify-content: center;
 
 }
 .tab.sub button {
-background: transparent;
+  background: transparent;
+  padding: 15px;
 }
 .tab svg  {font-size: 22px;
 margin-bottom: 5px;}
@@ -34,7 +35,7 @@ margin-bottom: 5px;}
   font-size: 13px;
   flex-direction: column;
   align-items: center;
-  color: #8B9398;
+  color: #73859E;
   /* text-transform: uppercase; */
   font-weight: 300;
   background: #fff;
@@ -59,9 +60,11 @@ background-color: #ddd;
 }
 .tab.sub button.active {
   background-color: transparent;
-  border-bottom: 1px solid #F1B602;
-  color: #F1B602;
+  border-bottom: 1px solid #fb6e3b;
+  color: #fb6e3b;
   font-weight: 500;
+  border-radius: 0px;
+  padding: 15px;
 }
 /* Style the tab content */
 .tabcontent {

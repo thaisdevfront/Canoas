@@ -671,17 +671,26 @@ var categoriesContainer=document.getElementById('categories')
             </div>
       
         `; 
-        document.getElementById(apiData.id.toString()) .innerHTML+= `  
-        <div class="tab sub" id="`+apiData.key +`"  >
-        
+        document.getElementById(apiData.id.toString()).innerHTML+= `  
+        <div class="tab sub"  >
+            <div class="swiper mySwiperTabs">
+            <div class="swiper-wrapper" id="`+apiData.key +`" >
+                
+           
+            
+            </div>
+            
+            </div>
         </div>
           `; 
-       
+          
         var subs=document.getElementById(apiData.key)
        
         apiData.itens.map((itensMap)=>{        
             subs.innerHTML+= ` 
-                 <button class="tablinks" onclick="openCity(event, '`+itensMap.id +`', '`+apiData.id +`')">`+itensMap.name +`</button> 
+                 <div class="swiper-slide"> 
+                    <button class="tablinks" onclick="openCity(event, '`+itensMap.id +`', '`+apiData.id +`')">`+itensMap.name +`</button> 
+                 </div>
             `;
            
           
