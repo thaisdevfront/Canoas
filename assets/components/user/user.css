@@ -1,8 +1,8 @@
 .user {
   
   font-family: 'Lexend Deca', sans-serif;
-  color: #8B9398;
-  padding: 10px 20px;
+  color: #fff;
+  padding: 5px;
   font-size: 13px;
   font-weight: 300;
 }
@@ -13,11 +13,18 @@
 
 }
 .user strong {
-    color: #F0B503;
+  font-weight: bold;
+    color: #fff;
 }
 .user .fa-user {
-    color: #F0B503;
+    color: #fff;
     margin-right: 5px;
+}
+.user img  {
+  width: 16px;
+  margin: 0px auto;
+  position: relative;
+  top: 4px;
 }
 .user select { 
 

@@ -2,7 +2,7 @@ data = [{
     id:'0',
     name:'Para Comer', 
     key:'Comer', 
-    image:' <i class="fa-solid fa-burger"></i>',
+    image:'assets/images/IconComida-White.png',
         itens:[{ 
             id:'01',
             name:'Porções', 
@@ -496,7 +496,7 @@ data = [{
     id:'1',
     name:'Para Beber', 
     key:'Beber',
-    image:'<i class="fa-solid fa-martini-glass"></i>',
+    image:'assets/images/IconBebidas-Orange.png',
 
         itens:[{ 
             id:'4',
@@ -660,7 +660,8 @@ var categoriesContainer=document.getElementById('categories')
         container.childNodes[1].innerHTML += ` 
 
             <button class="tablinks" onclick="openCity(event, '`+apiData.id +`')">
-                `+apiData.image +``+apiData.name +`
+                <img src=" `+apiData.image +`" alt="">
+               `+apiData.name +`
             </button>
           
         `;

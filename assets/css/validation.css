@@ -63,7 +63,7 @@
 form img {
     margin-top: 15px;
     position: absolute;
-    z-index: 9999;
+    z-index: 99;
     width: 14px;
     left: 14px;
 }select:invalid { color: red; }

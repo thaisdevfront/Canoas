@@ -39,18 +39,18 @@
 
 
             <img src="assets/images/inputs/user.png" style="width: 16px;">
-            <input required id="userName" style="padding-left: 13%;width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" > 
+            <input  id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" required> 
                  
             <div class="select">
                 <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
-                <select id="selectValidate">
+                <select id="selectValidate" required>
                     <option value="1">Selecione a forma de retirada</option>
                     <option value="2">RETIRE NO BALCÃO</option>
                     <option value="3">MESA</option>
                 </select> 
             </div>
 
-            <button onclick="validation(event)">Cárdapio
+            <button type="submit" onclick="validation(event)" value="submit">Cárdapio
                 <img src="assets/images/inputs/circle.png">
             </button>
 
@@ -85,7 +85,7 @@
         <h2>O que deseja pedir hoje?</h2>
 
         <form>
-            <i class="fa-solid fa-magnifying-glass"></i> 
+            <img src="assets/images/search.png" alt="" srcset="">
             <input type="text" placeholder="Buscar itens...">
             <i class="fa-solid fa-arrow-right"></i>
         </form>

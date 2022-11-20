@@ -1,5 +1,7 @@
-body{
+body {
     font-family: 'Lexend Deca', sans-serif;
+    background-color: #FB6E3B;
+    margin: 0px;
 }
 
 button {
@@ -24,7 +26,9 @@ h2 {
     padding: 0px 20px;
     font-size: 25px;
     width: 200px;
-    color: #F0B503;
+    color: #fff;
+    margin: 10px 0px 15px;
+    line-height: 1.1;
 }
 .controls {
     position: absolute;
