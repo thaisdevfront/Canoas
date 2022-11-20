@@ -30,16 +30,16 @@
     /* box-shadow: 1px 4px 5px #f1f1f1ee; */
 }
 .search svg {
-    color: #F0B503;
+    color: #FB6E3B;
 }
-::-webkit-input-placeholder { /* Edge */
+.search input::-webkit-input-placeholder { /* Edge */
+    color: #FB6E3B;
+  }
+  
+  .search input:-ms-input-placeholder { /* Internet Explorer 10-11 */
     color: #F0B503;
   }
   
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #F0B503;
-  }
-  
-  ::placeholder {
-    color: #F0B503;
+  .search input::placeholder {
+    color: #FB6E3B;
   }

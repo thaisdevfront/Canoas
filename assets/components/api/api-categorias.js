@@ -661,7 +661,7 @@ var categoriesContainer=document.getElementById('categories')
 
             <button class="tablinks" onclick="openCity(event, '`+apiData.id +`')">
                 <img src=" `+apiData.image +`" alt="">
-               `+apiData.name +`
+                `+apiData.name +`
             </button>
           
         `;
@@ -854,6 +854,13 @@ var categoriesContainer=document.getElementById('categories')
             `; 
   }
 
+  tabcontent = document.getElementsByClassName("tabcontent");
+  tablinks = document.getElementsByClassName("tablinks");
+  tabcontent[0].style.cssText="display:block"
+  tabcontent[3].style.cssText="display:block"
+  tablinks[0].setAttribute("class", "tablinks active")
+  console.log(tabcontent)
+  console.log(tablinks)
     
    
          
