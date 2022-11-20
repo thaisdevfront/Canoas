@@ -1,6 +1,6 @@
 .socialmedia img {
     position: relative;
-    width: 25px;
+    width: 30px;
     margin: 0;
     left:inherit;
 }
@@ -27,6 +27,7 @@
     left: auto;
     top: 0;
     margin: 8px 0;
+    opacity: .7;
 }
 .socialmedia h5:before {
     content: "";
@@ -38,4 +39,5 @@
     right: 0;
     top: 0;
     margin: 8px 0;
+    opacity: .7;
 }

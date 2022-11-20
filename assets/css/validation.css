@@ -1,5 +1,4 @@
 .validation{
-    background-image: url(../images/bg-validation.png) ;
     background-repeat:repeat ;
     background-size: cover; 
     position: fixed;
@@ -61,7 +60,7 @@ form img {
     position: absolute;
     z-index: 9999;
     width: 14px;
-    left: 12px;
+    left: 14px;
 }select:invalid { color: red; }
 .validation button {
     width: 150px;

@@ -31,8 +31,8 @@ input::placeholder,select::placeholder  {
     font-weight: bold;
     opacity: .5;
     color:#8B9398;
-    padding-left: 10%;
-    margin-left: 10%;
+    padding-left: 0%;
+    margin-left: 5%;
     opacity: 1;
     font-weight: 300;
     font-family: 'Lexend Deca', sans-serif;
