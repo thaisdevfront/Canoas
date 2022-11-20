@@ -4,50 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FB6E3B">
     <title>Canoas Ubatuba - Cardápio Digital</title>
-    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="favico.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/app.css">  
+    <link rel="stylesheet" href="assets/css/validation.css">  
+    <link rel="stylesheet" href="assets/css/inputs.css">  
+    <link rel="stylesheet" href="assets/css/cart.css">  
     <link rel="stylesheet" href="assets/components/user/user.css">  
-    
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/inputs.css">
-    <link rel="stylesheet" href="assets/css/validation.css">
+    <link rel="stylesheet" href="assets/components/menu/menu.css">  
+    <link rel="stylesheet" href="assets/components/search/search.css">  
+    <link rel="stylesheet" href="assets/components/categorias/categorias.css">  
+    <link rel="stylesheet" href="assets/components/product/product.css">  
+    <link rel="stylesheet" href="assets/components/mediasocial/mediasocial.css">  
+ 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-       
-    </header>
 
-     <!-- validation -->
-    <div class="validation">
-        <span class="number">12 99621 - 8661</span> 
+       <!-- validation -->
+    <div class="validation" id="validation" style="    background-image: url(assets/images/bg-validation.png) ;    ">
+        <!-- <span class="number">12 99621 - 8661</span>  -->
 
         <div class="content">
             <img src="assets/images/logo.png" alt="">
-            <h1>Seja bem - vindo 
-                <strong>Canoas Ubatuba</strong>
-            </h1>
-            <p>Nunca foi tão fácil, se alimentar na praia, veja nosso cardápio e faça seu pedido.</p>
+            
         </div>
+
         <form action="">
-            <label for="">
-            <input placeholder="Digite seu nome" type="text" style="max-width :93% ">
-        </label>
-            <div>
+            <h1>Faça seu pedido sem filas!</h1>
+
+
+            <img src="assets/images/inputs/user.png" style="width: 16px;">
+            <input required id="userName" style="padding-left: 13%;width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" > 
                  
-                    <div class="select">
-                        <select>
-                          <option value="1">Selecione a forma de retirada</option>
-                          <option value="2">RETIRE NO BALCÃO</option>
-                          <option value="3">MESA</option>
-                        </select>
-                      </div>
-                 
+            <div class="select">
+                <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
+                <select id="selectValidate">
+                    <option value="1">Selecione a forma de retirada</option>
+                    <option value="2">RETIRE NO BALCÃO</option>
+                    <option value="3">MESA</option>
+                </select> 
             </div>
-            <button>Cárdapio</button>
-        </form>
+
+            <button onclick="validation(event)">Cárdapio
+                <img src="assets/images/inputs/circle.png">
+            </button>
+
+            
+            <div class="socialmedia">
+               <h5> Siga nas Redes Sociais</h5>
+                <div class="links">
+                    <a href=""><img src="assets/images/instagram.png"></a>
+                    <a href=""><img src="assets/images/facebook.png"></a>
+                </div> 
+            </div>
+
+        </form>     
     </div>
+    <div class="user" id="user"> 
+        
+    </div>
+    <div class="cart" id="cart">  </div>
+
+
+    <div class="menu">
+        <ul>
+          
+            <button><i class="fa-regular fa-user"></i></button> 
+             <button id="cartPreview"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button><i class="fa-solid fa-bars"></i></button>
+        </ul>
+    </div>
+
+
+    <div class="search">
+        <h2>O que deseja pedir hoje?</h2>
+
+        <form>
+            <i class="fa-solid fa-magnifying-glass"></i> 
+            <input type="text" placeholder="Buscar itens...">
+            <i class="fa-solid fa-arrow-right"></i>
+        </form>
+        <div id="result"></div>
+     </div>
+
+    
+    <div id="categories" class="categories"> </div>
+   
+    
+ <script src="assets/js/all.js"></script>
+ <script src="assets/components/categorias/categorias.js"></script>
+ <script src="assets/components/api/api-categorias.js"></script>
+ <script src="assets/js/validation.js"></script>
+ <script src="assets/js/cart.js"></script>
+
+    
 </body>
 </html>
