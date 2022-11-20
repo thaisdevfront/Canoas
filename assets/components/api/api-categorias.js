@@ -3,6 +3,7 @@ data = [{
     name:'Para Comer', 
     key:'Comer', 
     image:'assets/images/IconComida-White.png',
+    image2:'assets/images/IconComida-Orange.png',
         itens:[{ 
             id:'01',
             name:'Porções', 
@@ -496,7 +497,8 @@ data = [{
     id:'1',
     name:'Para Beber', 
     key:'Beber',
-    image:'assets/images/IconBebidas-Orange.png',
+    image:'assets/images/IconBebidas-White.png',
+    image2:'assets/images/IconBebidas-Orange.png',
 
         itens:[{ 
             id:'4',
@@ -660,7 +662,8 @@ var categoriesContainer=document.getElementById('categories')
         container.childNodes[1].innerHTML += ` 
 
             <button key="`+apiData.id+`" class="tablinks" onclick="openCity(event, '`+apiData.id +`')">
-                <img src=" `+apiData.image +`" alt="">
+                <img class="img1" src=" `+apiData.image +`" alt="">
+                <img class="img2"  src=" `+apiData.image2 +`" alt="">
                 `+apiData.name +`
             </button>
           
