@@ -15,7 +15,7 @@
 }
 span.qtdIcon {
     position: absolute;
-    background: #f0b503;
+    background: #f8f8f8;
     width: 20px;
     height: 20px;
     display: flex;
@@ -23,11 +23,10 @@ span.qtdIcon {
     top: 0;
     border-radius: 20px;
     align-items: center;
-    color: white;
+    color: #fb6e3b;
     margin: 0 18px;
     font-size: 10px;
 }
-
 .total{
     position: fixed;
     bottom: 0;

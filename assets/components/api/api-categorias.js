@@ -815,7 +815,7 @@ var categoriesContainer=document.getElementById('categories')
                 totalCart+=prodMultiply
                
          
-                cartPreview.innerHTML= `    <div >     <button id="cartPreview" onclick="showCart()"><i class="fa-solid fa-cart-shopping"></i></button> <span class="qtdIcon">`+cartQtd +` </span>   </div>  `;  
+                cartPreview.innerHTML= `    <div >     <button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button> <span class="qtdIcon">`+cartQtd +` </span>   </div>  `;  
                 cartContainer.innerHTML+= `  
                 <div class="cartProduct">
                 <div >         `+productsMap.quantidade +`  </div> 
