@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FB6E3B">
     <title>Canoas Ubatuba - Cardápio Digital</title>
     <link rel="shortcut icon" href="favico.png" type="image/png">
     <link rel="stylesheet" href="assets/css/app.css">  
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="assets/components/search/search.css">  
     <link rel="stylesheet" href="assets/components/categorias/categorias.css">  
     <link rel="stylesheet" href="assets/components/product/product.css">  
+    <link rel="stylesheet" href="assets/components/mediasocial/mediasocial.css">  
  
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,21 +39,30 @@
 
 
             <img src="assets/images/inputs/user.png" style="width: 16px;">
-            <input id="userName" style="padding-left: 1%;width: 98%;height: 40px;margin-bottom: 10px !important;" placeholder="Digite seu nome" type="text" > 
+            <input id="userName" style="padding-left: 1%;width: 98%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" > 
                  
             <div class="select">
-            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
+                <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
                 <select id="selectValidate">
                     <option value="1">Selecione a forma de retirada</option>
                     <option value="2">RETIRE NO BALCÃO</option>
                     <option value="3">MESA</option>
-                </select>
-                
+                </select> 
             </div>
-                      
+
             <button onclick="validation(event)">Cárdapio
                 <img src="assets/images/inputs/circle.png">
             </button>
+
+            
+            <div class="socialmedia">
+               <h5> Siga nas Redes Sociais</h5>
+                <div class="links">
+                    <a href=""><img src="assets/images/instagram.png"></a>
+                    <a href=""><img src="assets/images/facebook.png"></a>
+                </div> 
+            </div>
+
         </form>     
     </div>
     <div class="user" id="user"> 

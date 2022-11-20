@@ -83,6 +83,7 @@ form img {
 }
 .validation button img {
     left: inherit;
-    right: 30px;
+    right: inherit;
     margin: 0;
+    padding: 1px 3px;
 }
