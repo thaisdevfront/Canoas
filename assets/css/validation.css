@@ -104,4 +104,7 @@ form img {
      
         width: 150px;
     }
+    .socialmedia {
+        display: none;
+    }
 }
