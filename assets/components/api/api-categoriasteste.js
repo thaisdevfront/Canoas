@@ -5,7 +5,7 @@ data = [{
     image:'assets/images/IconComida-White.png',
     image2:'assets/images/IconComida-Orange.png',
         itens:[{ 
-            id:'1SC',
+            id:'01',
             name:'Porções', 
             products:[{
                 id:'150',
@@ -135,10 +135,10 @@ data = [{
                 quantidade:0,
 
 
-            }]
-        
+            }
+        ]
         },{ 
-            id:'2',
+            id:'02',
             name:'Lanches',
             products:[{
                 id:'112',
@@ -146,11 +146,10 @@ data = [{
                 img:'assets/images/produtos/hotdog.png',  
                 price:20,
                 quantidade:0, 
-            }]
-       
-        
+            } 
+        ]
         },{ 
-            id:'3',
+            id:'03',
             name:'Pastéis',
             products:[{
                 id:'90',
@@ -230,11 +229,10 @@ data = [{
                 name:'Pastel Camarão', 
                 price:16,
                 quantidade:0,
-            }]
-        
-        
-        },{  
-            id:'4',
+            }
+        ]
+        } ,{  
+            id:'04',
             name:'Pastéis Doces',
             products:[{
                 id:'103',
@@ -285,11 +283,10 @@ data = [{
 
                 price:16,
                 quantidade:0,
-            }  ]     
-        
-
-        },{  
-            id:'5',
+            }       
+        ]
+        } ,{  
+            id:'05',
             name:'Tapiocas',
             products:[{
                 id:'60',
@@ -368,10 +365,10 @@ data = [{
 
                 price:18,
                 quantidade:0,
-            } ]      
-        
-        },{  
-            id:'6',
+            }       
+        ]
+        } ,{  
+            id:'06',
             name:'Tapiocas Doces',
             products:[{
                 id:'72',
@@ -417,10 +414,9 @@ data = [{
                 price:18,
                 quantidade:0,
             }       
-        ]       
-        
+        ]
         },{  
-            id:'7',
+            id:'07',
             name:'Panquecas',
             products:[{
                 id:'30',
@@ -493,8 +489,7 @@ data = [{
                 price:18,
                 quantidade:0,
             }       
-        ]    
-     
+        ]
         }
 
         ]
@@ -506,359 +501,86 @@ data = [{
     image2:'assets/images/IconBebidas-Orange.png',
 
         itens:[{ 
-            id:'4c',
+            id:'4',
             name:'Bebidas', 
             products:[{
                 id:'1',
                 key:'',
                 name:'Água sem Gás', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:4,
                 quantidade:0, 
             },{
                 id:'2',
                 key:'',
                 name:'Água com Gás', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:5,
                 quantidade:0, 
             },{
                 id:'3',
                 key:'',
                 name:'H20 Limão', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'5',
                 key:'',
                 name:'Refrigerante lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:6,
                 quantidade:0, 
             },{
                 id:'6',
                 key:'',
                 name:'Refrigerante Zero lata ', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:7,
                 quantidade:0, 
             },{
                 id:'7',
                 key:'',
                 name:'Schweppes', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'8',
                 key:'',
                 name:'Tônica', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'9',
                 key:'',
                 name:'Copo c/ Gelo', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:5,
                 quantidade:0, 
             },{
                 id:'10',
                 key:'',
                 name:'Copo c/ Gelo e Limão', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:5,
                 quantidade:0, 
-            }]
-        
+            }
+        ]
+            
         },{ 
-            id:'5c',
-            name:'Cervejas', 
+            id:'05',
+            name:'Alcoolicas',
             products:[{
                 id:'130',
                 name:'Cerveja Pilsen Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
                 price:6, 
                 quantidade:0,
-            },{
-                id:'131',
-                name:'Cerveja Malte Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:8, 
-                quantidade:0,
-
-            },{
-                id:'132',
-                name:'Cerveja Heineken Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:10,
-                quantidade:0, 
-
-            },{
-                id:'133',
-                name:'Cerveja Heineken Long Neck', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'134',
-                name:'Cerveja Bud / Stella Long', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'135',
-                name:'Cerveja Heineken sem alcool Long Neck ', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'136',
-                name:'Cerveja Heineken sem alcool Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:10,
-                quantidade:0, 
-
-            },{
-                id:'191',
-                name:'Red Bull Energético', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:18,
-                quantidade:0, 
-
-            },{
-                id:'192',
-                name:'Monster Energético', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:18,
-                quantidade:0, 
-
             }]
         },{ 
-            id:'6c',
-            name:'Caipirinhas', 
+            id:'06',
+            name:'Mais',
             products:[{
-                id:'140',
-                name:'Caipirinha Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:20, 
-                quantidade:0,
-            },{
-                id:'141',
-                name:'Caipirinha Vodka Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:25, 
-                quantidade:0,
-
-            },{
-                id:'142',
-                name:'Caipirinha Vodka Smirnoff', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:28,
+                id:'999',
+                name:'limao', 
+                price:75,
                 quantidade:0, 
 
-            },{
-                id:'143',
-                name:'Caipirinha Rum', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:25,
-                quantidade:0, 
-
-            },{
-                id:'145',
-                name:'Caipirinha Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:23,
-                quantidade:0, 
-
-            },{
-                id:'146',
-                name:'Caipirinha com Duas Frutas', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'137',
-                name:'Caipirinha com Pimenta', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:26,
-                quantidade:0, 
-
-            },{
-                id:'149',
-                name:'Caipirinha Saque', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:23,
-                quantidade:0, 
-
-            }]
-        },{ 
-            id:'7c',
-            name:'Batidas', 
-            products:[{
-                id:'185',
-                name:'Batida Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:20, 
-                quantidade:0,
-            },{
-                id:'107',
-                name:'Batida Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:23, 
-                quantidade:0,
-
-            },{
-                id:'186',
-                name:'Batida Vodka Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'110',
-                name:'Batida Vodka Smirnoff', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'221',
-                name:'Batida Espanhola', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:22,
-                quantidade:0, 
-
-            }]
-        },{ 
-            id:'8c',
-            name:'Doses', 
-            products:[{
-                id:'201',
-                name:'Dose Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:5, 
-                quantidade:0,
-            },{
-                id:'202',
-                name:'Dose Ypioca', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:8, 
-                quantidade:0,
-
-            },{
-                id:'203',
-                name:'Dose Cinar', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:10,
-                quantidade:0, 
-
-            },{
-                id:'204',
-                name:'Dose Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:8,
-                quantidade:0, 
-
-            },{
-                id:'205',
-                name:'Dose Vodka Smirnoff / Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'206',
-                name:'Dose Campare', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:18,
-                quantidade:0, 
-
-            },{
-                id:'207',
-                name:'Dose Martini', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'208',
-                name:'Dose Contine', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'209',
-                name:'Dose Jurupinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'210',
-                name:'Dose Conhaque', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:8,
-                quantidade:0, 
-
-            },{
-                id:'211',
-                name:'Dose Cuba libre', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:20,
-                quantidade:0, 
-
-            },{
-                id:'212',
-                name:'Dose Gin Tônica', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:20,
-                quantidade:0, 
-
-            },{
-                id:'213',
-                name:'Dose Rum', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'214',
-                name:'Dose Gin', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'224',
-                name:'Drink Pina Colada', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:22,
-                quantidade:0, 
-
-            },{
-                id:'227',
-                name:'Drink Canoa Beat', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'241',
-                name:'Dose Whisky Passport', 
-                img:'assets/images/produtos/pastelcarne.png',  
-                price:18,
-                quantidade:0, 
-
-            }]
-        }  
+            } ]
+        }
+    
         ]
     }
 
