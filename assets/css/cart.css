@@ -1,15 +1,34 @@
-.cart{
+.cart {
     position: fixed;
-    background: #f3f3f3;
+    background: #fff;
     height: 100%;
     left: 0;
     width: 100%;
     top: 0;
     display: none;
     padding: 50px 0;
-    z-index: 999;   
+    z-index: 999;
 }
-
+.cart h2 {
+    padding: 0px 20px;
+    font-size: 25px;
+    width: 200px;
+    color: #fb6e3b;
+    margin: 10px 0px 15px;
+    line-height: 1.1;
+}
+.cart .content {
+    padding: 0px 20px;
+}
+.cart .content h2 {
+    padding: 0px;
+    margin: 0px;
+}
+.cart p {
+    color: #73859E;
+    padding: 0px;
+    margin: 0px;
+}
 .showCart{ 
     display: block;
 }
@@ -27,7 +46,9 @@ span.qtdIcon {
     margin: 0 18px;
     font-size: 10px;
 }
-.total{
+
+
+.total {
     position: fixed;
     bottom: 0;
     height: auto;
@@ -35,23 +56,26 @@ span.qtdIcon {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: white;
+    background: #fb6e3b;
+    color: white;
     flex-direction: column;
     padding: 25px 0;
- 
+    border: 0px;
+    border-radius: 15px 15px 0px 0px;
 }
 .total button {
-    background: #33ebaf;
+    background: #fb6e3b;
     color: white;
+    border: 1px solid;
     border-radius: 20px;
-    height: 30px;
+    height: 40px;
+    width: 200px;
     padding: 0 25px;
     margin: 10px auto;
 }
 .cartProduct {
     display: flex;
     margin: 20px;
-    border-bottom: 1px solid #e1e1e1;
     padding: 20px 0;
 }
 .cartProduct{
@@ -60,4 +84,9 @@ span.qtdIcon {
 }
 .cartProduct div:first-child {
     margin: 0 10px;
+}
+.controls button {
+    /* background: red; */
+    margin: 20px 10px;
+    color: #fb6e3b;
 }

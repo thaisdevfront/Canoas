@@ -804,16 +804,19 @@ var categoriesContainer=document.getElementById('categories')
 
      
  refrashCart=(inputProd)=>{ 
-    input=document.getElementById(inputProd)
+     
 
   var cartContainer = document.getElementById('cart')
   var cartPreview = document.getElementById('cartPreview')
   input =document.getElementById(inputProd)
-  cartContainer.innerHTML= `<div></div>`;  
-  cartPreview.innerHTML= `<div></div>`;  
+ 
   cartQtd=0
   totalCart=0
-  
+  itensTotal=0
+
+   cartPreview.innerHTML= `<div></div>`;  
+  cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
+
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
@@ -821,23 +824,30 @@ var categoriesContainer=document.getElementById('categories')
 
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
-               
-                
+               itensTotal+=productsMap.quantidade
+                console.log(itensTotal)
                 prodMultiply=productsMap.price*productsMap.quantidade
                 totalCart+=prodMultiply
                
          
                 cartPreview.innerHTML= `    <div >     <button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button> <span class="qtdIcon">`+cartQtd +` </span>   </div>  `;  
                 cartContainer.innerHTML+= `  
-                <div class="cartProduct">
-                <div >         `+productsMap.quantidade +`  </div> 
-                <div >   `+productsMap.name +`</br>  `+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` </div> 
-               
-                        
-                          
-
-                </div> 
                 
+                <div class="produto">
+                                <img src="`+productsMap.img +`" alt="">
+                            <div class="prod-val">
+                                <h3 class="title-prod"> `+productsMap.name +` </h3> 
+                                <span class="valor">`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` </span>
+                            </div>
+                            <div class="quantidade">
+                                     <button key="`+productsMap.id +`" onclick="addProd(this,`+productsMap.id +`); ">+</button>
+                                <input  id="`+productsMap.id +`Cart" value="`+productsMap.quantidade +`" type="text" placeholder="0">
+                                <button key="`+productsMap.id +`" onclick="removeProd(this,`+productsMap.id +`); ">-</button>
+              
+                            </div>
+                            <button><img src="assets/images/trash.png" style="width: 20px; height: 21px;"></button>
+
+                        </div>
                 `;  
 
               
@@ -851,7 +861,9 @@ var categoriesContainer=document.getElementById('categories')
         }) 
 
      }) 
-
+      
+ console.log(document.getElementById("itensTotal") )
+ document.getElementById("itensTotal").innerHTML+=  itensTotal
      cartContainer.innerHTML+= ` 
 
             <div class="controls"  > 
@@ -872,6 +884,6 @@ var categoriesContainer=document.getElementById('categories')
   tabcontent[3].style.cssText="display:block"
   tablinks[0].setAttribute("class", "tablinks active")
  
-    
+    console.log(tabcontent[3])
    
          

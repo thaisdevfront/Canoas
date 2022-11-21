@@ -37,8 +37,3 @@ h2 {
     justify-content: space-between;
     width: 100%;
 }
-.controls button {
-    /* background: red; */
-    margin: 20px 10px;
-    color: #f39c12;
-}
