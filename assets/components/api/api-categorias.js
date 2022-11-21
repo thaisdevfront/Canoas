@@ -1094,26 +1094,56 @@ var categoriesContainer=document.getElementById('categories')
   }
 
     getCheckout=()=>{ 
-
+            
         containerCheckout=document.getElementById('checkout')
+        containerCheckout.setAttribute("class", "checkout")
         containerCheckout.innerHTML= ` 
+        <div class="controls"> 
+                <button onclick="closeCheckout()"><svg class="svg-inline--fa fa-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg><!-- <i class="fa-solid fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
+                <button onclick="closeCheckout()"><svg class="svg-inline--fa fa-xmark" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"></path></svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></button>  
+            </div>
         <div class="content"><h2>Finalizar Pedido</h2> </div>
+        <form>
+        <div>
+            <label>
+            Forma de retirada
+            </label>
+            <div class="select" id="selectHome" >
+                <select> 
+                <option value="1">Selecione a forma de retirada</option>
+                <option value="2">RETIRE NO BALCÃO</option>
+                <option value="3">MESA</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label> 
+                Observações do Pedido:
+            </label>
+            <textarea placeholder="Digite observacoes do seu pedido"></textarea>
+            
+        </div>
+        
+        <form>
 
-        <div class="select" id="selectHome" >
-        <select> 
-          <option value="1">Selecione a forma de retirada</option>
-          <option value="2">RETIRE NO BALCÃO</option>
-          <option value="3">MESA</option>
-        </select>
+        <div class="total"> 
+        Total da compra
+            `+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` 
+            <button onclick="getCheckout()">Enviar Pedido agora </button> 
+        </div> 
 
-
-
-        <textarea placeholder="Digite observacoes do seu pedido"></textarea>
                            
-      </div>
+        
         `;
         containerCheckout.style.cssText="display:block"
     }
+
+
+    closeCheckout=()=>{ 
+        containerCheckout.classList.toggle("hide");
+    }
+
+
   tabcontent = document.getElementsByClassName("tabcontent");
   tablinks = document.getElementsByClassName("tablinks");
   tabcontent[0].style.cssText="display:block"

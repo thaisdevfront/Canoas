@@ -63,6 +63,7 @@ span.qtdIcon {
     padding: 25px 0;
     border: 0px;
     border-radius: 15px 15px 0px 0px;
+    left:0;
 }
 .total button {
     background: #fb6e3b;
