@@ -756,9 +756,12 @@ var categoriesContainer=document.getElementById('categories')
               
 
               if(productsMap.id===key && productsMap.quantidade>0){
+
+                console.log(productsMap.quantidade+"quantidade")
                 productsMap.quantidade-- 
                 value=productsMap.quantidade 
                 input.setAttribute('value',value)
+                refrashCart(inputProd)
 
               }
              }) 
@@ -767,7 +770,6 @@ var categoriesContainer=document.getElementById('categories')
      }) 
 
     
-     refrashCart(inputProd)
 
     
   }
@@ -814,7 +816,7 @@ var categoriesContainer=document.getElementById('categories')
   totalCart=0
   itensTotal=0
 
-   cartPreview.innerHTML= `<div></div>`;  
+   cartPreview.innerHTML= `<div><button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button>      </div>`;  
   cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
 
     data.map((apiData)=>{   
@@ -881,9 +883,10 @@ var categoriesContainer=document.getElementById('categories')
   tabcontent = document.getElementsByClassName("tabcontent");
   tablinks = document.getElementsByClassName("tablinks");
   tabcontent[0].style.cssText="display:block"
-  tabcontent[3].style.cssText="display:block"
+  tabcontent[1].style.cssText="display:block"
   tablinks[0].setAttribute("class", "tablinks active")
  
-    console.log(tabcontent[3])
+    console.log(tablinks)
+    console.log(tabcontent)
    
          

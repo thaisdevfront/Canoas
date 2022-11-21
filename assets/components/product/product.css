@@ -2,11 +2,11 @@
     display: flex;
     background-color: #fff;
     border-radius: 10px;
-    padding:0  5px;
+    padding: 0 5px;
     font-family: 'Lexend Deca', sans-serif;
     align-items: center;
     height: 100px;
-}
+    background: #fdfdfd;}
 .produto img {
     width: 80px;
     border-radius: 5px;
@@ -28,7 +28,7 @@
     color: #8B9398;
     margin: 0px;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 14px;
 }
 .produto .prod-val .valor {
     color: #fb6e3b;
@@ -43,6 +43,8 @@
     color: #F8F8F8;
     background-color: #fb6e3b;
     margin: 5px;
+    font-size: 15px;
+    font-weight: 900;
 }
 .produto .quantidade input {
     width: 23px;

@@ -2,6 +2,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: #FB6E3B;
     margin: 0px;
+    overflow: hidden;
 }
 
 button {

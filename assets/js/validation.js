@@ -8,9 +8,7 @@ function validation(event){
      var inputUserName=document.getElementById('userName').value
    
      var text = select.options[select.selectedIndex].text;
-     
- console.log(selectValue!=1)
-
+ 
 
     if(inputUserName.length>3 & selectValue!=1){
     
@@ -36,6 +34,7 @@ function validation(event){
 
             setTimeout(function init(){
               validateView.style.display="none"
+              document.getElementsByTagName('body')[0].style.cssText="overflow:auto;"
            }, 1000);
             }else{
               alert('Preencha os Campos')
