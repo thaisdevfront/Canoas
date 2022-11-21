@@ -5,7 +5,7 @@ function validation(event){
      var selectValue=select.options[select.selectedIndex].value
      var validateView=document.getElementById('validation')
      var userView=document.getElementById('user')
-     var inputUserName=document.getElementById('userName').value
+       inputUserName=document.getElementById('userName').value
    
      var text = select.options[select.selectedIndex].text;
  

@@ -959,10 +959,7 @@ var categoriesContainer=document.getElementById('categories')
  
     var key=ProdThis.getAttribute('key')
     input=document.getElementById(inputProd)
-     
-    console.log(inputProd)
-
- 
+    
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
@@ -970,7 +967,7 @@ var categoriesContainer=document.getElementById('categories')
 
               if(productsMap.id===key && productsMap.quantidade>0){
 
-                console.log(productsMap.quantidade+"quantidade")
+         
                 productsMap.quantidade-- 
                 value=productsMap.quantidade 
                 input.setAttribute('value',value)
@@ -1001,7 +998,6 @@ var categoriesContainer=document.getElementById('categories')
              itensMap.products.map((productsMap)=>{ 
         
               if(productsMap.id===key ){
-                console.log(input)
                 productsMap.quantidade++
                 value=productsMap.quantidade 
                 input.setAttribute('value',value)
@@ -1028,6 +1024,7 @@ var categoriesContainer=document.getElementById('categories')
   cartQtd=0
   totalCart=0
   itensTotal=0
+  list=null
 
    cartPreview.innerHTML= `<div><button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button>      </div>`;  
   cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
@@ -1039,10 +1036,10 @@ var categoriesContainer=document.getElementById('categories')
 
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
-               itensTotal+=productsMap.quantidade
-                console.log(itensTotal)
+                itensTotal+=productsMap.quantidade
                 prodMultiply=productsMap.price*productsMap.quantidade
                 totalCart+=prodMultiply
+                list+=productsMap.name 
                
          
                 cartPreview.innerHTML= `    <div >     <button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button> <span class="qtdIcon">`+cartQtd +` </span>   </div>  `;  
@@ -1077,7 +1074,6 @@ var categoriesContainer=document.getElementById('categories')
 
      }) 
       
- console.log(document.getElementById("itensTotal") )
  document.getElementById("itensTotal").innerHTML+=  itensTotal
      cartContainer.innerHTML+= ` 
 
@@ -1094,7 +1090,8 @@ var categoriesContainer=document.getElementById('categories')
   }
 
     getCheckout=()=>{ 
-            
+        select=document.getElementById('selectValidate')
+        text = select.options[select.selectedIndex].text;
         containerCheckout=document.getElementById('checkout')
         containerCheckout.setAttribute("class", "checkout")
         containerCheckout.innerHTML= ` 
@@ -1110,7 +1107,7 @@ var categoriesContainer=document.getElementById('categories')
             </label>
             <div class="select" id="selectHome" >
                 <select> 
-                <option value="1">Selecione a forma de retirada</option>
+                <option value="1">`+text +`</option>
                 <option value="2">RETIRE NO BALCÃO</option>
                 <option value="3">MESA</option>
                 </select>
@@ -1120,16 +1117,16 @@ var categoriesContainer=document.getElementById('categories')
             <label> 
                 Observações do Pedido:
             </label>
-            <textarea placeholder="Digite observacoes do seu pedido"></textarea>
+            <textarea id="areaObs" placeholder="Digite observacoes do seu pedido"></textarea>
             
         </div>
-        
+        <div id="mgg"></div>
         <form>
 
         <div class="total"> 
         Total da compra
             `+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` 
-            <button onclick="getCheckout()">Enviar Pedido agora </button> 
+            <button onclick="sendOrder()">Enviar Pedido agora </button> 
         </div> 
 
                            
@@ -1144,13 +1141,55 @@ var categoriesContainer=document.getElementById('categories')
     }
 
 
+    sendOrder=()=>{
+     event.preventDefault()
+        listProd=document.querySelectorAll("div#cart .produto")
+        
+        txtarea=document.getElementById('areaObs').value
+        msgPrint=document.getElementById('mgg') 
+    
+
+        msgPrint.innerHTML+= `  
+        Pedido APP </br></br>             
+        Nome:`+inputUserName +`</br>
+        Forma de retirada:`+text +`</br>
+    `;
+        listProd.forEach(element => {
+
+            prodqtd=element.childNodes[5].childNodes[3].value
+            prodnm=element.childNodes[3].childNodes[1].innerHTML
+            prodpric=element.childNodes[3].childNodes[3].innerHTML
+        console.log(text)        
+        console.log(element.childNodes[5].childNodes[3].value)        
+        console.log(element.childNodes[3].childNodes[1].innerHTML)
+        console.log(element.childNodes[3].childNodes[3].innerHTML)
+        console.log(totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) )
+        console.log(txtarea)        
+        msgPrint.innerHTML+= `               
+                Produto: `+prodqtd +`un. `+prodnm +``+prodpric +` </br>
+            `;
+        });
+        msgPrint.innerHTML+= `               
+        Observacoes:`+txtarea +`</br></br>
+        Total da Compra:`+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`
+    `;
+        // listProd=
+
+        
+            // msgPrint.innerHTML= ` 
+            //     Olá Canoas Ubatuba - Pedido APP / </br>Forma de Retirada: `+text +`</br>
+            //     Nome: `+inputUserName +`/ </br> 
+            //     Itens Pedido:
+            //     Produto: `+prodqtd +`/ 
+            // `;
+        //   url="https://wa.me/+5512996218661?text=Olá Canoas Ubatuba - Meu nome é "+userName+", Forma de Retirada ("+userEnd+"), Pedido: "+msg+"Total à pagar:"+totalReal;
+   
+    }
+
+
   tabcontent = document.getElementsByClassName("tabcontent");
   tablinks = document.getElementsByClassName("tablinks");
   tabcontent[0].style.cssText="display:block"
   tabcontent[1].style.cssText="display:block"
   tablinks[0].setAttribute("class", "tablinks active")
- 
-    console.log(tablinks)
-    console.log(tabcontent)
-   
-         
+  
