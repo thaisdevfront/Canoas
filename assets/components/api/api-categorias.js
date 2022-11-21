@@ -708,7 +708,7 @@ data = [{
                 price:20, 
                 quantidade:0,
             },{
-                id:'107',
+                id:'107C',
                 name:'Batida Cachaça', 
                 img:'assets/images/produtos/pastelcarne.png',  
                 price:23, 
@@ -1088,11 +1088,32 @@ var categoriesContainer=document.getElementById('categories')
              <div class="total"> 
                 Total da compra
                 `+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` 
-                <button>Enviar Pedido agora </button> 
+                <button onclick="getCheckout()">Enviar Pedido agora </button> 
             </div> 
             `; 
   }
 
+    getCheckout=()=>{ 
+
+        containerCheckout=document.getElementById('checkout')
+        containerCheckout.innerHTML= ` 
+        <div class="content"><h2>Finalizar Pedido</h2> </div>
+
+        <div class="select" id="selectHome" >
+        <select> 
+          <option value="1">Selecione a forma de retirada</option>
+          <option value="2">RETIRE NO BALCÃO</option>
+          <option value="3">MESA</option>
+        </select>
+
+
+
+        <textarea placeholder="Digite observacoes do seu pedido"></textarea>
+                           
+      </div>
+        `;
+        containerCheckout.style.cssText="display:block"
+    }
   tabcontent = document.getElementsByClassName("tabcontent");
   tablinks = document.getElementsByClassName("tablinks");
   tabcontent[0].style.cssText="display:block"
