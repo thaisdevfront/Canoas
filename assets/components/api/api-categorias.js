@@ -1103,9 +1103,12 @@ var categoriesContainer=document.getElementById('categories')
         <form>
         <div>
             <label>
-            Forma de retirada
+            Forma de retirada:
             </label>
+            
+
             <div class="select" id="selectHome" >
+            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
                 <select> 
                 <option value="1">`+text +`</option>
                 <option value="2">RETIRE NO BALCÃO</option>
@@ -1113,10 +1116,12 @@ var categoriesContainer=document.getElementById('categories')
                 </select>
             </div>
         </div>
-        <div>
+        <div style="position: relative;">
             <label> 
                 Observações do Pedido:
             </label>
+            <img src="assets/images/inputs/archive.png" style="margin-top: 38px;">
+
             <textarea id="areaObs" placeholder="Digite observacoes do seu pedido"></textarea>
             
         </div>
@@ -1141,49 +1146,33 @@ var categoriesContainer=document.getElementById('categories')
     }
 
 
-    sendOrder=()=>{
-     event.preventDefault()
-        listProd=document.querySelectorAll("div#cart .produto")
-        
+    sendOrder=()=>{ 
+         var cesta=document.querySelectorAll("div#cart .produto")
         txtarea=document.getElementById('areaObs').value
-        msgPrint=document.getElementById('mgg') 
+          event.preventDefault()
+          msg=""
+          nameP=""
+          priceP=""
+        for (let index = 0; index < cesta.length; index++) {
+            const element = cesta[index];
+
+          
+            nameP+=""+element.childNodes[3].childNodes[1].innerHTML +""      
+            priceP+=""+element.childNodes[3].childNodes[3].innerHTML +""      
     
+                 console.log(priceP)
 
-        msgPrint.innerHTML+= `  
-        Pedido APP </br></br>             
-        Nome:`+inputUserName +`</br>
-        Forma de retirada:`+text +`</br>
-    `;
-        listProd.forEach(element => {
+           
+            msg= ` `+nameP +`  `+priceP +` `;
+     
 
-            prodqtd=element.childNodes[5].childNodes[3].value
-            prodnm=element.childNodes[3].childNodes[1].innerHTML
-            prodpric=element.childNodes[3].childNodes[3].innerHTML
-        console.log(text)        
-        console.log(element.childNodes[5].childNodes[3].value)        
-        console.log(element.childNodes[3].childNodes[1].innerHTML)
-        console.log(element.childNodes[3].childNodes[3].innerHTML)
-        console.log(totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) )
-        console.log(txtarea)        
-        msgPrint.innerHTML+= `               
-                Produto: `+prodqtd +`un. `+prodnm +``+prodpric +` </br>
-            `;
-        });
-        msgPrint.innerHTML+= `               
-        Observacoes:`+txtarea +`</br></br>
-        Total da Compra:`+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`
-    `;
-        // listProd=
+            
+        }
+        console.log(  msg  )
+        url="https://wa.me/+5512996048083?text=Olá  "+msg;
+        // location.href = url
 
         
-            // msgPrint.innerHTML= ` 
-            //     Olá Canoas Ubatuba - Pedido APP / </br>Forma de Retirada: `+text +`</br>
-            //     Nome: `+inputUserName +`/ </br> 
-            //     Itens Pedido:
-            //     Produto: `+prodqtd +`/ 
-            // `;
-        //   url="https://wa.me/+5512996218661?text=Olá Canoas Ubatuba - Meu nome é "+userName+", Forma de Retirada ("+userEnd+"), Pedido: "+msg+"Total à pagar:"+totalReal;
-   
     }
 
 
