@@ -1032,10 +1032,12 @@ var categoriesContainer=document.getElementById('categories')
 
 
      url = "https://wa.me/5512982969703?text=" // Seu numero
-   + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
-   + "%0a" // Quebra de linha
+   + "*Pedido via APP*" + "%0a" // Mensagem personalizada
+   + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
-  
+   + "*Forma de Retirada*: " + text+ "%0a" // Dados do formulário
+   + "*Itens Pedidos*" + "%0a" // Mensagem personalizada
+   + "%0a" // Quebra de linhas
 
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
@@ -1070,9 +1072,12 @@ var categoriesContainer=document.getElementById('categories')
                         </div>
                         
                 `;  
-                msg+=``+productsMap.quantidade +`,`+productsMap.name +`,`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`` 
+                // msg+=``+productsMap.quantidade +`,`+productsMap.name +`,`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`` 
               
-             
+                url+=""+productsMap.quantidade+"un. /"+productsMap.name+" / " + prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
+                + "%0a" // Quebra de linhas
+
+
              }
             
              

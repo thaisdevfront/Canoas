@@ -7,7 +7,7 @@ function validation(event){
      var userView=document.getElementById('user')
        inputUserName=document.getElementById('userName').value
    
-     var text = select.options[select.selectedIndex].text;
+       text = select.options[select.selectedIndex].text;
  
 
     if(inputUserName.length>3 & selectValue!=1){
