@@ -1027,13 +1027,21 @@ var categoriesContainer=document.getElementById('categories')
   list=null
 
    cartPreview.innerHTML= `<div><button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button>      </div>`;  
-  cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
+   cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
+   msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
+
+
+     url = "https://wa.me/5512982969703?text=" // Seu numero
+   + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+   + "%0a" // Quebra de linha
+   + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
+  
 
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
               
-
+  
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
                 itensTotal+=productsMap.quantidade
@@ -1060,8 +1068,9 @@ var categoriesContainer=document.getElementById('categories')
                             <button><img src="assets/images/trash.png" style="width: 20px; height: 21px;"></button>
 
                         </div>
+                        
                 `;  
-
+                msg+=``+productsMap.quantidade +`,`+productsMap.name +`,`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`` 
               
              
              }
@@ -1139,42 +1148,20 @@ var categoriesContainer=document.getElementById('categories')
         `;
         containerCheckout.style.cssText="display:block"
     }
-
+    sendOrder=()=>{
+        event.preventDefault()
+                // console.log(msg)
+                // url="https://wa.me/+5512982969703?text=Olá"+msg;
+                location.href = url
+    }
 
     closeCheckout=()=>{ 
         containerCheckout.classList.toggle("hide");
     }
 
 
-    sendOrder=()=>{ 
-         var cesta=document.querySelectorAll("div#cart .produto")
-        txtarea=document.getElementById('areaObs').value
-          event.preventDefault()
-          msg=""
-          nameP=""
-          priceP=""
-        for (let index = 0; index < cesta.length; index++) {
-            const element = cesta[index];
 
-          
-            nameP+=""+element.childNodes[3].childNodes[1].innerHTML +""      
-            priceP+=""+element.childNodes[3].childNodes[3].innerHTML +""      
-    
-                 console.log(priceP)
-
-           
-            msg= ` `+nameP +`  `+priceP +` `;
-     
-
-            
-        }
-        console.log(  msg  )
-        url="https://wa.me/+5512996048083?text=Olá  "+msg;
-        // location.href = url
-
-        
-    }
-
+   
 
   tabcontent = document.getElementsByClassName("tabcontent");
   tablinks = document.getElementsByClassName("tablinks");
