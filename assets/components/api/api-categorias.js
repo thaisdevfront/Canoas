@@ -1031,12 +1031,11 @@ var categoriesContainer=document.getElementById('categories')
    msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
 
 
-     url = "https://wa.me/5512982969703?text=" // Seu numero
-   + "*Pedido via APP*" + "%0a" // Mensagem personalizada
+     url = "https://wa.me/551296218661?text=" // Seu numero
+   + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
    + "*Forma de Retirada*: " + text+ "%0a" // Dados do formulário
-   + "%0a" // Quebra de linhas
    + "%0a" // Quebra de linhas
    + "*Itens Pedidos*" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
@@ -1160,10 +1159,14 @@ var categoriesContainer=document.getElementById('categories')
         containerCheckout.style.cssText="display:block"
     }
     sendOrder=()=>{
-        event.preventDefault()
-                // console.log(msg)
-                // url="https://wa.me/+5512982969703?text=Olá"+msg;
-                location.href = url
+
+        comments=document.getElementById("areaObs").value
+        url+="*Observações do Pedido*"
+        + "%0a" // Quebra de linhas 
+        +comments
+ 
+        event.preventDefault() 
+        location.href = url
     }
 
     closeCheckout=()=>{ 
