@@ -495,6 +495,39 @@ data = [{
             }       
         ]    
      
+        },{  
+            id:'8Cm',
+            name:'Mini Pizzas',
+            products:[{
+                id:'176',
+                name:'Pizza Mini Mussarela', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'177',
+                name:'Pizza Mini Presunto e Queijo', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'178',
+                name:'Pizza Mini Calabresa', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            },{
+                id:'179',
+                name:'Pizza Mini Brócolis', 
+                img:'assets/images/produtos/pastelcarne.png',  
+
+                price:14,
+                quantidade:0,
+            }]    
+     
         }
 
         ]
@@ -1091,7 +1124,7 @@ var categoriesContainer=document.getElementById('categories')
      }) 
      
      url+="%0a" + "%0a"
-        +"*Total da compra: *"
+        +"*Total da compra *"
         + "%0a" // Quebra de linhas
         +"*"+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})+"*" 
         + "%0a"+ "%0a" // Quebra de linhas
@@ -1164,7 +1197,9 @@ var categoriesContainer=document.getElementById('categories')
     sendOrder=()=>{
 
         comments=document.getElementById("areaObs").value
-        url+=+ "%0a" + "*Observações do Pedido*"
+        url+=""
+        +"%0a" 
+        + "*Observações do Pedido*"
         + "%0a" // Quebra de linhas 
         +comments
  
