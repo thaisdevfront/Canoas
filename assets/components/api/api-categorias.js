@@ -1092,7 +1092,8 @@ var categoriesContainer=document.getElementById('categories')
      
      url+="*Total da compra*"
         + "%0a" // Quebra de linhas
-        +totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) 
+        +"*"+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})+"*" 
+        + "%0a" // Quebra de linhas
 
  document.getElementById("itensTotal").innerHTML+=  itensTotal
      cartContainer.innerHTML+= ` 
