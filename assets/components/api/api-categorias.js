@@ -244,50 +244,50 @@ data = [{
             name:'Pastéis Doces',
             products:[{
                 id:'103',
-                name:'Pastel Banana com Nutella', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                name:'Pastel Banana com Canela', 
+                img:'assets/images/produtos/pastelbananacanela.png',  
 
                 price:12,
                 quantidade:0,
             },{
                 id:'104',
-                name:'Pastel Chocolate com Nutella', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                name:'Pastel Chocolate / Nutella', 
+                img:'assets/images/produtos/pastelchocolatenutella.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'105',
                 name:'Pastel Chocolate com Banana', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/pastelchocolatebanana.png',  
 
                 price:15,
                 quantidade:0,
             },{
                 id:'106',
                 name:'Pastel Chocolate com Morango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/pastelchocolatemorango.png',  
 
                 price:15,
                 quantidade:0,
             },{
                 id:'107',
                 name:'Pastel Leite Condensado c/ Coco', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/pastelleitecondensadococo.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'108',
                 name:'Pastel Nutella com Morango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/pastelchocolatemorango.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'109',
                 name:'Pastel Nutella com Banana', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/pastelchocolatebanana.png',  
 
                 price:16,
                 quantidade:0,

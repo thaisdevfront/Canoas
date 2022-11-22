@@ -17,8 +17,24 @@ textarea {
     border-radius: 15px;
     /* padding-left: 38px; */
     padding-top: 10px;
-    color: red;
+    color: #73859E;
     margin: 6px auto;
+}
+textarea::-webkit-input-placeholder { /* Edge */
+  color: #73859E;
+  padding: 20px ;
+}
+
+textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #73859E;
+  padding: 20px 10px;
+
+}
+
+textarea::placeholder {
+  color: #73859E;
+  padding: 20px 10px;
+
 }
 .checkout.hide {
     display: none !important;
