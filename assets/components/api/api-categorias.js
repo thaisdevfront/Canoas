@@ -1090,10 +1090,11 @@ var categoriesContainer=document.getElementById('categories')
 
      }) 
      
-     url+="*Total da compra*"
+     url+="%0a" + "%0a"
+        +"*Total da compra: *"
         + "%0a" // Quebra de linhas
         +"*"+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})+"*" 
-        + "%0a" // Quebra de linhas
+        + "%0a"+ "%0a" // Quebra de linhas
 
  document.getElementById("itensTotal").innerHTML+=  itensTotal
      cartContainer.innerHTML+= ` 
@@ -1163,7 +1164,7 @@ var categoriesContainer=document.getElementById('categories')
     sendOrder=()=>{
 
         comments=document.getElementById("areaObs").value
-        url+="*Observações do Pedido*"
+        url+=+ "%0a" + "*Observações do Pedido*"
         + "%0a" // Quebra de linhas 
         +comments
  
