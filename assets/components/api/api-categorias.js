@@ -1039,6 +1039,7 @@ var categoriesContainer=document.getElementById('categories')
    + "%0a" // Quebra de linhas
    + "%0a" // Quebra de linhas
    + "*Itens Pedidos*" + "%0a" // Mensagem personalizada
+   + "%0a" // Quebra de linhas
 
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
@@ -1076,8 +1077,6 @@ var categoriesContainer=document.getElementById('categories')
                 // msg+=``+productsMap.quantidade +`,`+productsMap.name +`,`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`` 
               
                 url+=""+productsMap.quantidade+"un. / *"+productsMap.name+"* / " + prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
-                + "%0a" // Quebra de linhas
-                + "%0a" // Quebra de linhas
                 
 
 
