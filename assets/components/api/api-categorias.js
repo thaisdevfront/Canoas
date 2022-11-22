@@ -1031,7 +1031,8 @@ var categoriesContainer=document.getElementById('categories')
    msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
 
 
-     url = "https://wa.me/551296218661?text=" // Seu numero
+     url = "https://wa.me/5512982969703?text=" // Seu numero
+    //  url = "https://wa.me/551296218661?text=" // Seu numero
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
@@ -1076,7 +1077,7 @@ var categoriesContainer=document.getElementById('categories')
                 // msg+=``+productsMap.quantidade +`,`+productsMap.name +`,`+prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +`` 
               
                 url+=""+productsMap.quantidade+"un. / *"+productsMap.name+"* / " + prodMultiply.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})
-                
+                +"%0a" // Dados do formulário
 
 
              }
