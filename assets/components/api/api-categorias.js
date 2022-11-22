@@ -218,16 +218,22 @@ data = [{
             },{
                 id:'100',
                 name:'Pastel Frango com Catupiry', 
+                img:'assets/images/produtos/pastelfrangocatupiry.png',  
+
                 price:14,
                 quantidade:0,
             },{
                 id:'101',
                 name:'Pastel Palmito', 
+                img:'assets/images/produtos/pastelpalmito.png',  
+
                 price:12,
                 quantidade:0,
             },{
                 id:'101',
                 name:'Pastel Camarão', 
+                img:'assets/images/produtos/pastelcamarao.png',  
+
                 price:16,
                 quantidade:0,
             }]
@@ -1064,8 +1070,8 @@ var categoriesContainer=document.getElementById('categories')
    msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
 
 
-     url = "https://wa.me/5512982969703?text=" // Seu numero
-    //  url = "https://wa.me/551296218661?text=" // Seu numero
+    //  url = "https://wa.me/5512982969703?text=" // Seu numero test
+     url = "https://wa.me/551296218661?text=" // Seu numero Produção
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
