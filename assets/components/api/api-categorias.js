@@ -696,55 +696,55 @@ data = [{
             products:[{
                 id:'140',
                 name:'Caipirinha Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhapinga.png',  
                 price:20, 
                 quantidade:0,
             },{
                 id:'141',
                 name:'Caipirinha Vodka Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhaorloff.png',  
                 price:25, 
                 quantidade:0,
 
             },{
                 id:'142',
                 name:'Caipirinha Vodka Smirnoff', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhasmirnoff.png',  
                 price:28,
                 quantidade:0, 
 
             },{
                 id:'143',
                 name:'Caipirinha Rum', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinharum.png',  
                 price:25,
                 quantidade:0, 
 
             },{
                 id:'145',
                 name:'Caipirinha Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhacachaca.png',  
                 price:23,
                 quantidade:0, 
 
             },{
                 id:'146',
                 name:'Caipirinha com Duas Frutas', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhaduasfrutas.png',  
                 price:28,
                 quantidade:0, 
 
             },{
                 id:'137',
                 name:'Caipirinha com Pimenta', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhapimenta.png',  
                 price:26,
                 quantidade:0, 
 
             },{
                 id:'149',
                 name:'Caipirinha Saque', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/caipirinhasaque.png',  
                 price:23,
                 quantidade:0, 
 
