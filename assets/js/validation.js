@@ -12,6 +12,7 @@ function validation(event){
 
     if(inputUserName.length>3 & selectValue!=1){
     
+      retirada=text;
   
        userView.innerHTML= `  
                 <div style="
