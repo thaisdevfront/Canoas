@@ -8,6 +8,18 @@ data = [{
             id:'1SC',
             name:'Porções', 
             products:[{
+                id:'175',
+                name:'Porção Camarão Rosa Paulista', 
+                price:150, 
+                img:'assets/images/produtos/camaraorosapaulista.png',
+                quantidade:0,
+            },{
+                id:'180',
+                name:'Porção Camarão Rosa Dorê', 
+                price:130, 
+                img:'assets/images/produtos/camaraorosadore.png',
+                quantidade:0,
+            },{
                 id:'150',
                 name:'Porção Camarão Paulista', 
                 price:90, 
