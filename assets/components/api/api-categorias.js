@@ -312,77 +312,77 @@ data = [{
             products:[{
                 id:'60',
                 name:'Tapioca Carne', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocacarne.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'61',
                 name:'Tapioca Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocaqueijo.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'62',
                 name:'Tapioca Bauru', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocabauru.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'63',
                 name:'Tapioca Frango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocafrango.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'64',
                 name:'Tapioca Pizza', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocapizza.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'65',
                 name:'Tapioca Brócolis', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocabrocolis.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'67',
                 name:'Tapioca Carne com Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocacarnequeijo.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'68',
                 name:'Tapioca Brócolis com Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocabrocolisqueijo.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'69',
                 name:'Tapioca Frango com Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocafrangoqueijo.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'70',
                 name:'Tapioca Palmito', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocapalmito.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'71',
                 name:'Tapioca Camarão', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocacamarao.png',  
 
                 price:18,
                 quantidade:0,
@@ -394,44 +394,44 @@ data = [{
             products:[{
                 id:'72',
                 name:'Tapioca Banana com Canela', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocabananacanela.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'73',
                 name:'Tapioca Chocolate / Nutella', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocachocolatenutella.png',  
                 price:16,
                 quantidade:0,
             },{
                 id:'74',
                 name:'Tapioca Chocolate com Banana', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocachocolatebanana.png',  
                 price:17,
                 quantidade:0,
             },{
                 id:'75',
                 name:'Tapioca Chocolate com Morango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocachocolatemorango.png',  
                 price:17,
                 quantidade:0,
             },{
                 id:'76',
                 name:'Tapioca Leite Condensado c/ Coco', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocaleitecoco.png',  
                 price:18,
                 quantidade:0,
             },{
                 id:'77',
                 name:'Tapioca Nutella com Morango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocanutellamorango.png',  
                 price:17,
                 quantidade:0,
             },{
                 id:'78',
                 name:'Tapioca Nutella com Banana', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/tapiocanutellabanana.png',  
                 price:18,
                 quantidade:0,
             }       
@@ -443,70 +443,70 @@ data = [{
             products:[{
                 id:'30',
                 name:'Panqueca Carne', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecacarne.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'31',
                 name:'Panqueca Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecaqueijo.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'32',
                 name:'Panqueca Bauru', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecabauru.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'33',
                 name:'Panqueca Frango', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecafrango.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'34',
                 name:'Panqueca Pizza', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecapizza.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'37',
                 name:'Panqueca Carne com Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecacarnequeijo.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'38',
                 name:'Panqueca Brócolis com Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecabrocolisqueijo.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'39',
                 name:'Panqueca Frango com Catupiry', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecafrangocatupiry.png',  
 
                 price:18,
                 quantidade:0,
             },{
                 id:'40',
                 name:'Panqueca Palmito', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecapalmito.png',  
 
                 price:16,
                 quantidade:0,
             },{
                 id:'41',
                 name:'Panqueca Camarão', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/panquecacamarao.png',  
 
                 price:18,
                 quantidade:0,
@@ -519,28 +519,28 @@ data = [{
             products:[{
                 id:'176',
                 name:'Pizza Mini Mussarela', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/minimussarela.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'177',
                 name:'Pizza Mini Presunto e Queijo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/minipresuntomussarela.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'178',
                 name:'Pizza Mini Calabresa', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/minicalabresa.png',  
 
                 price:14,
                 quantidade:0,
             },{
                 id:'179',
                 name:'Pizza Mini Brócolis', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/minibrocolis.png',  
 
                 price:14,
                 quantidade:0,
@@ -563,63 +563,63 @@ data = [{
                 id:'1',
                 key:'',
                 name:'Água sem Gás', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidaaguasgas.png',  
                 price:4,
                 quantidade:0, 
             },{
                 id:'2',
                 key:'',
                 name:'Água com Gás', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidaaguacgas.png',  
                 price:5,
                 quantidade:0, 
             },{
                 id:'3',
                 key:'',
                 name:'H20 Limão', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidah2o.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'5',
                 key:'',
                 name:'Refrigerante lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidarefrilata.png',  
                 price:6,
                 quantidade:0, 
             },{
                 id:'6',
                 key:'',
                 name:'Refrigerante Zero lata ', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidarefrizerolata.png',  
                 price:7,
                 quantidade:0, 
             },{
                 id:'7',
                 key:'',
                 name:'Schweppes', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidasweppeslata.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'8',
                 key:'',
                 name:'Tônica', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidatonicalata.png',  
                 price:8,
                 quantidade:0, 
             },{
                 id:'9',
                 key:'',
                 name:'Copo c/ Gelo', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidacopogelo.png',  
                 price:5,
                 quantidade:0, 
             },{
                 id:'10',
                 key:'',
                 name:'Copo c/ Gelo e Limão', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/bebidacopogelolimao.png',  
                 price:5,
                 quantidade:0, 
             }]
@@ -630,62 +630,62 @@ data = [{
             products:[{
                 id:'130',
                 name:'Cerveja Pilsen Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejapilsenlata.png',  
                 price:6, 
                 quantidade:0,
             },{
                 id:'131',
                 name:'Cerveja Malte Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejamaltelata.png',  
                 price:8, 
                 quantidade:0,
 
             },{
                 id:'132',
                 name:'Cerveja Heineken Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejaheinekenlata.png',  
                 price:10,
                 quantidade:0, 
 
             },{
                 id:'133',
                 name:'Cerveja Heineken Long Neck', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejaheinekenlongneck.png',  
                 price:12,
                 quantidade:0, 
 
             },{
                 id:'134',
                 name:'Cerveja Bud / Stella Long', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejabudestellalongneck.png',  
                 price:12,
                 quantidade:0, 
 
             },{
                 id:'135',
                 name:'Cerveja Heineken sem alcool Long Neck ', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejaheinekensalcoollongneck.png',  
                 price:12,
                 quantidade:0, 
 
             },{
                 id:'136',
                 name:'Cerveja Heineken sem alcool Lata', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejaheinekensalcoollata.png',  
                 price:10,
                 quantidade:0, 
 
             },{
                 id:'191',
                 name:'Red Bull Energético', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejaredbull.png',  
                 price:18,
                 quantidade:0, 
 
             },{
                 id:'192',
                 name:'Monster Energético', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/cervejamonster.png',  
                 price:18,
                 quantidade:0, 
 
@@ -793,118 +793,118 @@ data = [{
             products:[{
                 id:'201',
                 name:'Dose Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosepinga.png',  
                 price:5, 
                 quantidade:0,
             },{
                 id:'202',
                 name:'Dose Ypioca', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/doseypioca.png',  
                 price:8, 
                 quantidade:0,
 
             },{
                 id:'203',
                 name:'Dose Cinar', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecinar.png',  
                 price:10,
                 quantidade:0, 
 
             },{
                 id:'204',
                 name:'Dose Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecachaca.png',  
                 price:8,
                 quantidade:0, 
 
             },{
                 id:'205',
                 name:'Dose Vodka Smirnoff / Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosevodka.png',  
                 price:14,
                 quantidade:0, 
 
             },{
                 id:'206',
                 name:'Dose Campare', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecampare.png',  
                 price:18,
                 quantidade:0, 
 
             },{
                 id:'207',
                 name:'Dose Martini', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosemartini.png',  
                 price:14,
                 quantidade:0, 
 
             },{
                 id:'208',
                 name:'Dose Contine', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecontine.png',  
                 price:14,
                 quantidade:0, 
 
             },{
                 id:'209',
                 name:'Dose Jurupinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosejurupinga.png',  
                 price:12,
                 quantidade:0, 
 
             },{
                 id:'210',
                 name:'Dose Conhaque', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/doseconhaque.png',  
                 price:8,
                 quantidade:0, 
 
             },{
                 id:'211',
                 name:'Dose Cuba libre', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecubralibre.png',  
                 price:20,
                 quantidade:0, 
 
             },{
                 id:'212',
                 name:'Dose Gin Tônica', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosegintonica.png',  
                 price:20,
                 quantidade:0, 
 
             },{
                 id:'213',
                 name:'Dose Rum', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/doserum.png',  
                 price:14,
                 quantidade:0, 
 
             },{
                 id:'214',
                 name:'Dose Gin', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosegin.png',  
                 price:14,
                 quantidade:0, 
 
             },{
                 id:'224',
                 name:'Drink Pina Colada', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosepinacolada.png',  
                 price:22,
                 quantidade:0, 
 
             },{
                 id:'227',
                 name:'Drink Canoa Beat', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosecanoasbeat.png',  
                 price:28,
                 quantidade:0, 
 
             },{
                 id:'241',
                 name:'Dose Whisky Passport', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/dosepassport.png',  
                 price:18,
                 quantidade:0, 
 
@@ -1080,14 +1080,13 @@ var categoriesContainer=document.getElementById('categories')
    cartPreview.innerHTML= `<div><button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button>      </div>`;  
    cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
    msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
-
+   retirada="";
 
     //  url = "https://wa.me/5512982969703?text=" // Seu numero test
      url = "https://wa.me/551296218661?text=" // Seu numero Produção
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
-   + "*Forma de Retirada*: " + text+ "%0a" // Dados do formulário
    + "%0a" // Quebra de linhas
    + "*Itens Pedidos*" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
@@ -1180,14 +1179,22 @@ var categoriesContainer=document.getElementById('categories')
             </label>
             
 
-            <div class="select" id="selectHome" >
-            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
-                <select> 
-                <option value="1">`+text +`</option>
-                <option value="2">RETIRE NO BALCÃO</option>
-                <option value="3">MESA</option>
+            <div class="select">
+                <select onchange="formaRetirada()" id="selectCheckout" > 
+                    <option value="1">Selecione a forma de retirada</option>
+                    <option value="balcao">RETIRE NO BALCÃO</option>
+                    <option value="mesa">Mesa</option>
                 </select>
             </div>
+            <div class="select" >
+            <select  id="selectMesaCheckout" style="display:none;" > 
+                <option value="0">Selecione a Mesa</option>
+                <option value="1">01</option>
+                <option value="2">02</option>
+                <option value="3">03</option>
+                <option value="4">04</option>
+            </select>
+        </div>
         </div>
         <div style="position: relative;">
             <label> 
@@ -1195,7 +1202,7 @@ var categoriesContainer=document.getElementById('categories')
             </label>
             <img src="assets/images/inputs/archive.png" style="margin-top: 38px;">
 
-            <textarea id="areaObs" placeholder="Digite observacoes do seu pedido"></textarea>
+            <textarea id="areaObs" placeholder="Digite observações do seu pedido"></textarea>
             
         </div>
         <div id="mgg"></div>
@@ -1210,12 +1217,58 @@ var categoriesContainer=document.getElementById('categories')
                            
         
         `;
+        selectCheck=document.getElementById('selectCheckout')
+        optionsCheck=selectCheck.options[selectCheck.selectedIndex].text
+
+        // VALIDA CAMPO HOME
+        if(text=="Mesa"){
+            mesaCheck=document.getElementById('selectMesaCheckout')
+            mesaCheck.style.cssText="display:block"
+        }
+
+        // VALIDA CAMPO CHECKOUT 
+        if(optionsCheck=="Mesa"){
+            console.log(optionsCheck)
+            console.log(text)
+            mesaCheck.style.cssText="display:block"
+
+        }
         containerCheckout.style.cssText="display:block"
     }
+
+    formaRetirada=()=>{
+        console.log("oi")
+        console.log(  document.getElementById('selectCheckout').value)
+        retiradavalue=document.getElementById('selectCheckout').value
+        mesaCheck=document.getElementById('selectMesaCheckout')
+
+        if(retiradavalue=='mesa'){
+            mesaCheck.style.cssText="display:block"
+
+        }else if(retiradavalue=='balcao'){
+            mesaCheck.style.cssText="display:none"
+
+        }
+
+   }
+ 
     sendOrder=()=>{
+        console.log(retiradavalue)
+        mesaCheck=document.getElementById('selectMesaCheckout').value
+
+      if(retiradavalue=='mesa'){
+              
+                retirada=retiradavalue+mesaCheck
+                console.log(retirada)
+
+        }else if(retiradavalue=='balcao'){
+            mesaCheck.style.cssText="display:none"
+
+        }
 
         comments=document.getElementById("areaObs").value
         url+=""
+          + "*Forma de Retirada*: " + retirada+ "%0a" // Dados do formulário
         +"%0a" 
         + "*Observações do Pedido*"
         + "%0a" // Quebra de linhas 
