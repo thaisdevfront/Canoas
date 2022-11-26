@@ -23,7 +23,7 @@ function validation(event){
                     Olá <strong>`+inputUserName +`</strong> Seja Bem-vindo!
                 </div>
 
-                <div class="select" id="selectHome"style="display: none;">
+                <div class="select" id="selectHome" style="display: none;">
                     <select>
                       <option value="0">`+text +`</option>
                       <option value="1">Selecione a forma de retirada</option>
