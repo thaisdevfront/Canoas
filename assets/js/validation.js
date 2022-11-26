@@ -28,9 +28,8 @@ function validation(event){
                       <option value="0">`+text +`</option>
                       <option value="1">Selecione a forma de retirada</option>
                       <option value="2">RETIRE NO BALCÃO</option>
-                      <option value="3">MESA</option>
-                    </select>
-                  </div>
+                      <option value="3">Mesa</option>
+                    </select>Mesa
             `;
 
             setTimeout(function init(){
