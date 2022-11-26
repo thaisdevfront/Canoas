@@ -3,131 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <!-- <meta name="theme-color" content="#FB6E3B"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canoas Ubatuba - Cardápio Digital</title>
-    <link rel="shortcut icon" href="favico.png" type="image/png">
-    <link rel="stylesheet" href="assets/css/app.css">  
-    <link rel="stylesheet" href="assets/css/validation.css">  
-    <link rel="stylesheet" href="assets/css/inputs.css">  
-    <link rel="stylesheet" href="assets/css/cart.css">  
-    <link rel="stylesheet" href="assets/components/user/user.css">  
-    <link rel="stylesheet" href="assets/components/menu/menu.css">  
-    <link rel="stylesheet" href="assets/components/search/search.css">  
-    <link rel="stylesheet" href="assets/components/categorias/categorias.css">  
-    <link rel="stylesheet" href="assets/components/product/product.css">  
-    <link rel="stylesheet" href="assets/components/mediasocial/mediasocial.css">  
-    <link rel="stylesheet" href="assets/components/swiper/swiper.css">  
-    <link rel="stylesheet" href="assets/components/banners/banners.css">  
-    <link rel="stylesheet" href="assets/components/checkout/checkout.css">  
-
- 
-
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/inputs.css">
+    <link rel="stylesheet" href="assets/css/validation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+       
+    </header>
 
-       <!-- validation -->
-    <div class="validation" id="validation" style="    background-image: url(assets/images/bg-validation.png) ;    ">
-        <!-- <span class="number">12 99621 - 8661</span>  -->
-
+     <!-- validation -->
+    <div class="validation">
         <div class="content">
+            <span>12 99621 - 8661</span> 
             <img src="assets/images/logo.png" alt="">
-            
+            <h1>Seja bem - vindo 
+                <strong>Canoas Ubatuba</strong>
+            </h1>
+            <p>Nunca foi tão fácil, se alimentar na praia, veja nosso cardápio e faça seu pedido.</p>
         </div>
-
         <form action="">
-            <h1>Faça seu pedido sem filas!</h1>
-
-
-            <img src="assets/images/inputs/user.png" style="width: 16px;">
-            <input  id="userName" style="width: 88%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" required> 
-                 
-            <div class="select">
-                <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
-                <select id="selectValidate" required>
-                    <option value="1">Selecione a forma de retirada</option>
-                    <option value="2">RETIRE NO BALCÃO</option>
-                    <option value="3">MESA</option>
-                </select> 
-            </div>
-
-            <button type="submit" onclick="validation(event)" value="submit">Cárdapio
-                <img src="assets/images/inputs/circle.png">
-            </button>
-
-            
-            <div class="socialmedia">
-               <h5> Siga nas Redes Sociais</h5>
-                <div class="links">
-                    <a href="https://instagram.com/canoasubatuba?igshid=ZDdkNTZiNTM=" ><img src="assets/images/instagram.png"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100085722654035&mibextid=ZbWKwL" ><img src="assets/images/facebook.png"></a>
-                </div> 
-            </div>
-
-        </form>     
-    </div>
-    <div class="user" id="user"> 
-        
-    </div>
-    <div class="cart" id="cart">  </div>
-    <div class="checkout" id="checkout">  </div>
-
-
-    <div class="menu">
-        <ul>
-          
-            <button><img src="assets/images/UserWhite.png" alt="" srcset=""></button> 
-             <button id="cartPreview"><img src="assets/images/shopping-cart.png" alt="" srcset=""></button>
-            <button><img src="assets/images/menu.png" alt="" srcset=""></button>
-        </ul>
-    </div>
-
-
-    <div class="search">
-        <h2>O que deseja pedir hoje?</h2>
-
-        <form>
-            <img src="assets/images/search.png" alt="">
-            <input type="text" placeholder="Buscar itens...">
-            <i class="fa-solid fa-arrow-right"></i>
+            <input placeholder="Digite seu nome" type="text">
+            <select name="cars" id="cars">
+                <option value="volvo">Selecione forma de retirada</option>
+                <option value="saab">Saab</option>
+                <option value="opel">Opel</option>
+                <option value="audi">Audi</option>
+              </select>
+            <button>Cárdapio</button>
         </form>
-        <div id="result"></div>
-     </div>
-     <div class="banners">
-     <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="assets/images/banners/banner1.png" alt="" >
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/banners/banner1.png" alt="" >
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/banners/banner1.png" alt="" >
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/banners/banner1.png" alt="" >
-          </div>
-          
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
     </div>
-    <div id="categories" class="categories"> </div>
-   
-    
- <script src="assets/js/all.js"></script>
- <script src="assets/components/categorias/categorias.js"></script>
- <script src="assets/components/api/api-categorias.js"></script>
- <script src="assets/js/validation.js"></script>
- <script src="assets/js/cart.js"></script>
- <script src="assets/components/swiper/swiper.js"></script>
- <script src="assets/js/app.js"></script>
-
-
-    
 </body>
 </html>
