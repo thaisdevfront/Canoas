@@ -2,12 +2,15 @@
 
 
 getSearch=(event)=>{
+    
     event.preventDefault()
+
     
     containerSearch = document.getElementById('contentSearch')  
     serchInput = document.getElementById('serchInput')   
     searchResult = document.getElementById('searchResult')   
     containerSearch.classList.toggle("showSearch");
+    searchResult.classList.toggle("show");
     prodsArray=[]
    
     submitSearch=(event)=>{
@@ -24,8 +27,8 @@ getSearch=(event)=>{
 
         
       }
-    
-   
+      
+      
     data.map((apiData)=>{  
         apiData.itens.map((itensMap)=>{  
             itensMap.products.map((productsMap)=>{  
@@ -75,6 +78,9 @@ getSearch=(event)=>{
             `;  
         }) 
      }
-     
+     console.log(containerSearch)
+
+  
+   
 }
 

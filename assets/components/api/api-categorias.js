@@ -1039,7 +1039,7 @@ var categoriesContainer=document.getElementById('categories')
 
     
  addProd=(ProdThis, inputProd)=>{ 
-
+    event.preventDefault
     var key=ProdThis.getAttribute('key')
      
       input=document.getElementById(inputProd)

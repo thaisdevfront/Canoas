@@ -13,6 +13,9 @@
     max-height: initial;
     height: 80px;
     margin: 5px 0;
+    
+        position: initial;
+     
 }
 .prod-val{
     padding: 10px;

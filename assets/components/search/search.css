@@ -57,9 +57,14 @@ div#searchResult {
     position: absolute;
     color: #73859E;
     z-index: 9999999;
+    display:none;
 }
+div#searchResult.show {display: initial;}
 .contentSearch.showSearch {
     display: block;
+}
+.searchResult {
+    display: none;
 }
 .contentSearch input {
     border: 1px solid;
