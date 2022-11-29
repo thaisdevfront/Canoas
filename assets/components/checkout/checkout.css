@@ -19,21 +19,33 @@ textarea {
     padding-top: 10px;
     color: #73859E;
     margin: 6px auto;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+
 }
 textarea::-webkit-input-placeholder { /* Edge */
   color: #73859E;
   padding: 20px ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+
 }
 
 textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #73859E;
   padding: 20px 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+
 
 }
 
 textarea::placeholder {
   color: #73859E;
   padding: 20px 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight:300;
+
 
 }
 .checkout.hide {

@@ -755,34 +755,34 @@ data = [{
             products:[{
                 id:'185',
                 name:'Batida Pinga', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/batidapinga.png',  
                 price:20, 
                 quantidade:0,
             },{
                 id:'107C',
                 name:'Batida Cachaça', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/batidacachaca.png',  
                 price:23, 
                 quantidade:0,
 
             },{
                 id:'186',
                 name:'Batida Vodka Orloff', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/batidaorloff.png',  
                 price:28,
                 quantidade:0, 
 
             },{
                 id:'110',
                 name:'Batida Vodka Smirnoff', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/batidasmirnoff.png',  
                 price:28,
                 quantidade:0, 
 
             },{
                 id:'221',
                 name:'Batida Espanhola', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                img:'assets/images/produtos/batidaespanhola.png',  
                 price:22,
                 quantidade:0, 
 
@@ -921,6 +921,7 @@ var categoriesContainer=document.getElementById('categories')
 
  getApi=(container)=>{
     container.innerHTML =` <div class="tab"> </div>`;
+    prods=""
     data.map((apiData)=>{ 
          
         container.childNodes[1].innerHTML += ` 
@@ -973,6 +974,7 @@ var categoriesContainer=document.getElementById('categories')
             var Contentsubs=document.getElementById(tabContentMap.id)
            
           innitProd=  tabContentMap.products.map((productsMap)=>{  
+            prods+=productsMap
                     Contentsubs.innerHTML+= `  
                         <div class="produto">
                                 <img src="`+productsMap.img +`" alt="" s></img>
@@ -1041,8 +1043,10 @@ var categoriesContainer=document.getElementById('categories')
     var key=ProdThis.getAttribute('key')
      
       input=document.getElementById(inputProd)
+      inputSearch=document.getElementById(inputProd+'search')
       
-
+    console.log(ProdThis)
+    console.log(inputProd)
  
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
@@ -1052,6 +1056,10 @@ var categoriesContainer=document.getElementById('categories')
                 productsMap.quantidade++
                 value=productsMap.quantidade 
                 input.setAttribute('value',value)
+                if(inputSearch){
+                    inputSearch.setAttribute('value',value)
+
+                }
               }
              }) 
         }) 
@@ -1071,7 +1079,7 @@ var categoriesContainer=document.getElementById('categories')
   var cartContainer = document.getElementById('cart')
   var cartPreview = document.getElementById('cartPreview')
   input =document.getElementById(inputProd)
- 
+
   cartQtd=0
   totalCart=0
   itensTotal=0
@@ -1079,7 +1087,7 @@ var categoriesContainer=document.getElementById('categories')
 
    cartPreview.innerHTML= `<div><button id="cartPreview" onclick="showCart()"><img src="assets/images/shopping-cart.png" alt=""></button>      </div>`;  
    cartContainer.innerHTML= `<div class="content"><h2>Pedido</h2><p ><span id="itensTotal"></span>  Itens na Cesta</p></div>`;  
-   msg="Olá, Pedido via APP" + "%0a" + "Nome: "+inputUserName
+   msg="Olá, Pedido via APP Canoas" + "%0a" + "Nome: "+inputUserName
    retirada="";
 
     //  url = "https://wa.me/5512982969703?text=" // Seu numero test
@@ -1094,7 +1102,7 @@ var categoriesContainer=document.getElementById('categories')
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
              itensMap.products.map((productsMap)=>{ 
-              
+               
   
               if(productsMap.quantidade>0){
                 cartQtd+=productsMap.quantidade
@@ -1146,8 +1154,8 @@ var categoriesContainer=document.getElementById('categories')
         +"*"+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})+"*" 
         + "%0a"+ "%0a" // Quebra de linhas
 
- document.getElementById("itensTotal").innerHTML+=  itensTotal
-     cartContainer.innerHTML+= ` 
+        document.getElementById("itensTotal").innerHTML+=  itensTotal
+        cartContainer.innerHTML+= ` 
 
             <div class="controls"  > 
                 <button onclick="showCart()"><i class="fa-solid fa-chevron-left"></i></button>
@@ -1156,9 +1164,9 @@ var categoriesContainer=document.getElementById('categories')
              <div class="total"> 
                 Total da compra
                 `+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` 
-                <button onclick="getCheckout()">Enviar Pedido agora </button> 
+                <button onclick="getCheckout()">Finalizar Pedido <i class="fa-regular fa-rectangle-list"></i></button> 
             </div> 
-            `; 
+        `; 
   }
 
     getCheckout=()=>{ 
@@ -1171,7 +1179,7 @@ var categoriesContainer=document.getElementById('categories')
                 <button onclick="closeCheckout()"><svg class="svg-inline--fa fa-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg><!-- <i class="fa-solid fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
                 <button onclick="closeCheckout()"><svg class="svg-inline--fa fa-xmark" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"></path></svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></button>  
             </div>
-        <div class="content"><h2>Finalizar Pedido</h2> </div>
+        <div class="content"><h2>Finalizar Pedido </h2> </div>
         <form>
         <div>
             <label>
@@ -1180,14 +1188,20 @@ var categoriesContainer=document.getElementById('categories')
             
 
             <div class="select">
+            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;"/>
+
                 <select onchange="formaRetirada()" id="selectCheckout" > 
+
                     <option value="1">Selecione a forma de retirada</option>
-                    <option value="balcao">RETIRE NO BALCÃO</option>
+                    <option value="balcao">Balcão</option>
                     <option value="mesa">Mesa</option>
                 </select>
             </div>
-            <div class="select" >
-            <select  id="selectMesaCheckout" style="display:none;" > 
+            <div class="select"  style="display:none;">
+            <img src="assets/images/inputs/mesa.png" style="margin-top: 16px;"/ >
+
+            <select  id="selectMesaCheckout" > 
+
                 <option value="0">Selecione a Mesa</option>
                 <option value="1">01</option>
                 <option value="2">02</option>
@@ -1200,7 +1214,7 @@ var categoriesContainer=document.getElementById('categories')
             <label> 
                 Observações do Pedido:
             </label>
-            <img src="assets/images/inputs/archive.png" style="margin-top: 38px;">
+            <img src="assets/images/inputs/chat.png" style="margin-top: 38px;">
 
             <textarea id="areaObs" placeholder="Digite observações do seu pedido"></textarea>
             
@@ -1211,7 +1225,7 @@ var categoriesContainer=document.getElementById('categories')
         <div class="total"> 
         Total da compra
             `+totalCart.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'}) +` 
-            <button onclick="sendOrder()">Enviar Pedido agora </button> 
+            <button onclick="sendOrder(event)">Enviar Pedido  <i class="fa-brands fa-whatsapp"></i> </button> 
         </div> 
 
                            
@@ -1223,37 +1237,37 @@ var categoriesContainer=document.getElementById('categories')
         // VALIDA CAMPO HOME
         if(text=="Mesa"){
             mesaCheck=document.getElementById('selectMesaCheckout')
-            mesaCheck.style.cssText="display:block"
+            mesaCheck.parentNode.style.cssText="display:block"
         }
 
         // VALIDA CAMPO CHECKOUT 
         if(optionsCheck=="Mesa"){
             console.log(optionsCheck)
             console.log(text)
-            mesaCheck.style.cssText="display:block"
+            mesaCheck.parentNode.style.cssText="display:block"
 
         }
         containerCheckout.style.cssText="display:block"
     }
 
     formaRetirada=()=>{
-        console.log("oi")
-        console.log(  document.getElementById('selectCheckout').value)
+       
         retiradavalue=document.getElementById('selectCheckout').value
         mesaCheck=document.getElementById('selectMesaCheckout')
 
         if(retiradavalue=='mesa'){
-            mesaCheck.style.cssText="display:block"
+            mesaCheck.parentNode.style.cssText="display:block"
 
         }else if(retiradavalue=='balcao'){
-            mesaCheck.style.cssText="display:none"
+            mesaCheck.parentNode.style.cssText="display:none"
 
         }
 
    }
  
-    sendOrder=()=>{
-        console.log(retiradavalue)
+    sendOrder=(event)=>{
+        event.preventDefault() 
+    
         mesaCheck=document.getElementById('selectMesaCheckout').value
 
       if(retiradavalue=='mesa'){
@@ -1274,7 +1288,6 @@ var categoriesContainer=document.getElementById('categories')
         + "%0a" // Quebra de linhas 
         +comments
  
-        event.preventDefault() 
         location.href = url
     }
 
