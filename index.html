@@ -49,7 +49,7 @@
                 <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
                 <select id="selectValidate" required>
                     <option value="1">Selecione a forma de retirada</option>
-                    <option value="2">RETIRE NO BALCÃO</option>
+                    <option value="2">Balcão</option>
                     <option value="3">Mesa</option>
                 </select> 
             </div>
@@ -87,14 +87,27 @@
 
 
     <div class="search">
-        <h2>O que deseja pedir hoje?</h2>
-
+        <h2>O que deseja pedir hoje?</h2> 
         <form>
             <img src="assets/images/search.png" alt="">
-            <input type="text" placeholder="Buscar itens...">
+            <input  onclick="getSearch(event)" type="text" placeholder="Buscar itens...">
             <i class="fa-solid fa-arrow-right"></i>
+
+            <div id="contentSearch" class="contentSearch"> 
+              <!-- CONTROLES -->
+              <div class="controls"> 
+                <button onclick="getSearch(event)"><svg class="svg-inline--fa fa-chevron-left" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"></path></svg><!-- <i class="fa-solid fa-chevron-left"></i> Font Awesome fontawesome.com --></button>
+                <button onclick="getSearch(event)"><svg class="svg-inline--fa fa-xmark" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"></path></svg><!-- <i class="fa-solid fa-xmark"></i> Font Awesome fontawesome.com --></button>  
+              </div>
+              
+              <div style=" position: inherit;width: 100%; margin: 50px auto;"> 
+                <input id="serchInput" type="text" placeholder="Buscar itens..."> 
+              </div>
+
+            </div>
+
         </form>
-        <div id="result"></div>
+        <div id="searchResult"></div>
      </div>
      <div class="banners">
      <div class="swiper mySwiper">
@@ -105,8 +118,15 @@
           <div class="swiper-slide">
             <img src="assets/images/banners/bannerdrinks.png" alt="" >
           </div>
-          
-          
+          <div class="swiper-slide">
+            <img src="assets/images/banners/bannercerveja.png" alt="" >
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/banners/bannertapioca.png" alt="" >
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/images/banners/bannerpanqueca.png" alt="" >
+          </div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -114,15 +134,20 @@
     <div id="categories" class="categories"> </div>
    
     
+  
+    </html>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+
  <script src="assets/js/all.js"></script>
  <script src="assets/components/categorias/categorias.js"></script>
  <script src="assets/components/api/api-categorias.js"></script>
+ <script src="assets/components/search/search.js"></script>
  <script src="assets/js/validation.js"></script>
  <script src="assets/js/cart.js"></script>
  <script src="assets/components/swiper/swiper.js"></script>
  <script src="assets/js/app.js"></script>
 
-
+   
     
 </body>
 </html>
