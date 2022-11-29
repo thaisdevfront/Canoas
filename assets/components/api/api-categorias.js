@@ -1276,7 +1276,10 @@ var categoriesContainer=document.getElementById('categories')
                 console.log(retirada)
 
         }else if(retiradavalue=='balcao'){
-            mesaCheck.style.cssText="display:none"
+            // mesaCheck.style.cssText="display:none"
+            retirada=retiradavalue
+
+            retirada=text
 
         }
 
