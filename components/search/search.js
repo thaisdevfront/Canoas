@@ -71,7 +71,6 @@ getSearch=(event)=>{
                     <button key="`+prodFoundMap.id +`" onclick="removeProd(this,`+prodFoundMap.id +`); ">-</button>
     
                 </div>
-                <button><img src="assets/images/trash.png" style="width: 20px; height: 21px;"></button>
 
             </div>
             
