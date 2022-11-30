@@ -1,0 +1,43 @@
+.socialmedia img {
+    position: relative;
+    width: 40px;
+    margin: 0;
+    left:inherit;
+}
+.socialmedia h5 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 13px;
+    margin: 5px auto;
+    position: relative;
+}
+
+.socialmedia .links {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia h5:after {
+    content: "";
+    width: 17%;
+    height: 1px;
+    background: white;
+    display: block;
+    position: absolute;
+    left: auto;
+    top: 0;
+    margin: 8px 0;
+    opacity: .7;
+}
+.socialmedia h5:before {
+    content: "";
+    width: 17%;
+    height: 1px;
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 8px 0;
+    opacity: .7;
+}

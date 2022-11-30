@@ -1,0 +1,43 @@
+input,select {
+    position: relative;
+    width: 100%;
+    border: 0;
+    border-radius: 40px;
+    box-shadow: none;
+    height: 42px;
+    margin: 2px 0;
+    /* padding: 0 1em; */
+    padding-left: 36px;
+    color: #73859E;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: white;
+}
+
+select {
+    appearance: none;
+    outline: 0;
+    flex: 1;
+    background-image: none;
+    padding-left: 36px;
+   }
+
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+input::placeholder,select::placeholder  {
+    font-weight: bold;
+    opacity: .5;
+    color:#8B9398;
+    padding-left: 0%;
+    margin-left: 5%;
+    opacity: 1;
+    font-weight: 300;
+    font-family: 'Lexend Deca', sans-serif;
+
+  
+   
+}

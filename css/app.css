@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #FB6E3B;
+    margin: 0px;
+    overflow: hidden;
+}
+
+button {
+    background:transparent;
+    border:0;
+}
+
+.categories {
+    margin: 20px auto;
+}
+.produto {
+    margin: 10px auto;
+}
+h1 {
+    margin: 10px auto;
+    font-size: 1.0rem;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+}
+h2 {
+    padding: 0px 20px;
+    font-size: 25px;
+    width: 200px;
+    color: #fff;
+    margin: 10px 0px 15px;
+    line-height: 1.1;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
