@@ -59,7 +59,7 @@ div#searchResult {
     z-index: 9999999;
     display:none;
 }
-div#searchResult.show {display: initial;}
+div#searchResult.show {display: initial;width:100%;}
 .contentSearch.showSearch {
     display: block;
 }
