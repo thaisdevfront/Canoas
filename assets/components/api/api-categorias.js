@@ -257,7 +257,7 @@ data = [{
             products:[{
                 id:'103',
                 name:'Pastel Prestigio', 
-                img:'assets/images/produtos/pastelbananacanela.pngx',  
+                img:'assets/images/produtos/pastelprestigio.png',  
 
                 price:15,
                 quantidade:0,
@@ -394,7 +394,7 @@ data = [{
             products:[{
                 id:'72',
                 name:'Tapioca Prestigio', 
-                img:'assets/images/produtos/tapiocabananacanela.png',  
+                img:'assets/images/produtos/tapiocaprestigiop.png',  
 
                 price:16,
                 quantidade:0,
