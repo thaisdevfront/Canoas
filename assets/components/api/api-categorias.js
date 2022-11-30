@@ -1233,7 +1233,7 @@ var categoriesContainer=document.getElementById('categories')
         `;
         selectCheck=document.getElementById('selectCheckout')
         optionsCheck=selectCheck.options[selectCheck.selectedIndex].text
-
+        retiradavalue=0
         // VALIDA CAMPO HOME
         if(text=="Mesa"){
             mesaCheck=document.getElementById('selectMesaCheckout')
@@ -1242,8 +1242,7 @@ var categoriesContainer=document.getElementById('categories')
 
         // VALIDA CAMPO CHECKOUT 
         if(optionsCheck=="Mesa"){
-            console.log(optionsCheck)
-            console.log(text)
+            
             mesaCheck.parentNode.style.cssText="display:block"
 
         }
@@ -1280,6 +1279,9 @@ var categoriesContainer=document.getElementById('categories')
             retirada=retiradavalue
 
             retirada=text
+
+        }else{
+            alert('Preencha os Campos')
 
         }
 

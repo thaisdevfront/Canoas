@@ -62,7 +62,7 @@ getSearch=(event)=>{
                     <img src="`+prodFoundMap.img +`" alt="">
                 <div class="prod-val">
                     <h3 class="title-prod"> `+prodFoundMap.name +` </h3> 
-                   <span class="valor">`+prodFoundMap.price  +` </span>
+                   <span class="valor">`+prodFoundMap.price.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})  +` </span>
 
                 </div>
                 <div class="quantidade">
@@ -71,7 +71,6 @@ getSearch=(event)=>{
                     <button key="`+prodFoundMap.id +`" onclick="removeProd(this,`+prodFoundMap.id +`); ">-</button>
     
                 </div>
-                <button><img src="assets/images/trash.png" style="width: 20px; height: 21px;"></button>
 
             </div>
             
