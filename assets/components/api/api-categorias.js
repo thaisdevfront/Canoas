@@ -22,13 +22,13 @@ data = [{
             },{
                 id:'150',
                 name:'Porção Camarão Paulista', 
-                price:90, 
+                price:100, 
                 img:'assets/images/produtos/camaraopaulista.png',
                 quantidade:0,
             },{
                 id:'151',
-                name:'Porção Camarão Dorê', 
-                price:75, 
+                name:'Porção Camarão a Dorê', 
+                price:80, 
                 img:'assets/images/produtos/camaraodore.png',
                 quantidade:0,
 
@@ -47,7 +47,7 @@ data = [{
                 name:'Porção Peixe Tilápia', 
                 img:'assets/images/produtos/tilapia.png',
 
-                price:65,
+                price:70,
                 quantidade:0,
 
 
@@ -56,7 +56,7 @@ data = [{
                 name:'Porção Peixe Cação', 
                 img:'assets/images/produtos/cacao.png',
 
-                price:65,
+                price:70,
                 quantidade:0,
 
 
@@ -64,7 +64,7 @@ data = [{
                 id:'155',
                 name:'Porção Peixe Pescada', 
                 img:'assets/images/produtos/pescada.png', 
-                price:65,
+                price:70,
                 quantidade:0,
 
 
@@ -72,7 +72,7 @@ data = [{
                 id:'156',
                 name:'Porção Peixe Merluza', 
                 img:'assets/images/produtos/merluza.png', 
-                price:65,
+                price:70,
                 quantidade:0,
 
 
@@ -80,7 +80,7 @@ data = [{
                 id:'158',
                 name:'Porção Peixe Porquinho', 
                 img:'assets/images/produtos/porquinho.png', 
-                price:65,
+                price:70,
                 quantidade:0,
 
 
@@ -89,7 +89,7 @@ data = [{
                 name:'Fritas', 
                 img:'assets/images/produtos/fritas.png', 
 
-                price:35,
+                price:40,
                 quantidade:0,
 
 
@@ -98,7 +98,7 @@ data = [{
                 name:'Fritas com Queijo', 
                 img:'assets/images/produtos/fritasqueijo.png', 
 
-                price:40,
+                price:48,
                 quantidade:0,
 
 
@@ -107,7 +107,7 @@ data = [{
                 name:'Porção Mandioca', 
                 img:'assets/images/produtos/mandioca.png', 
 
-                price:35,
+                price:42,
                 quantidade:0,
 
 
@@ -116,7 +116,7 @@ data = [{
                 name:'Porção Mandioca com Queijo', 
                 img:'assets/images/produtos/mandiocaqueijo.png', 
 
-                price:40,
+                price:48,
                 quantidade:0,
 
 
@@ -125,7 +125,7 @@ data = [{
                 name:'Porção Calabresa', 
                 img:'assets/images/produtos/calabresa.png', 
 
-                price:50,
+                price:55,
                 quantidade:0,
 
 
@@ -143,7 +143,7 @@ data = [{
                 name:'Pão Extra', 
                 img:'assets/images/produtos/paoextra.png', 
 
-                price:3, 
+                price:4, 
                 quantidade:0,
 
 
@@ -169,77 +169,77 @@ data = [{
                 name:'Pastel Carne ', 
                 img:'assets/images/produtos/pastelcarne.png',  
 
-                price:13,
+                price:14,
                 quantidade:0,
             },{
                 id:'91',
                 name:'Pastel Queijo', 
                 img:'assets/images/produtos/pastelqueijo.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'92',
                 name:'Pastel Bauru', 
                 img:'assets/images/produtos/pastelbauru.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'93',
                 name:'Pastel Calabresa', 
                 img:'assets/images/produtos/pastelcalabresa.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'94',
                 name:'Pastel Frango', 
                 img:'assets/images/produtos/pastelfrango.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'95',
                 name:'Pastel Pizza', 
                 img:'assets/images/produtos/pastelpizza.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'96',
                 name:'Pastel Brócolis', 
                 img:'assets/images/produtos/pastelbrocolis.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'98',
                 name:'Pastel Carne com Queijo', 
                 img:'assets/images/produtos/pastelcarnequeijo.png',  
 
-                price:15,
+                price:16,
                 quantidade:0,
             },{
                 id:'14',
                 name:'Pastel Brócolis com Queijo', 
                 img:'assets/images/produtos/pastelbrocolisqueijo.png',  
 
-                price:14,
+                price:16,
                 quantidade:0,
             },{
                 id:'100',
                 name:'Pastel Frango com Catupiry', 
                 img:'assets/images/produtos/pastelfrangocatupiry.png',  
 
-                price:14,
+                price:16,
                 quantidade:0,
             },{
                 id:'101',
                 name:'Pastel Palmito', 
                 img:'assets/images/produtos/pastelpalmito.png',  
 
-                price:12,
+                price:14,
                 quantidade:0,
             },{
                 id:'101',
@@ -256,17 +256,17 @@ data = [{
             name:'Pastéis Doces',
             products:[{
                 id:'103',
-                name:'Pastel Banana com Canela', 
-                img:'assets/images/produtos/pastelbananacanela.png',  
+                name:'Pastel Prestigio', 
+                img:'assets/images/produtos/pastelbananacanela.pngx',  
 
-                price:12,
+                price:15,
                 quantidade:0,
             },{
                 id:'104',
-                name:'Pastel Chocolate / Nutella', 
+                name:'Pastel Chocolate ou Nutella', 
                 img:'assets/images/produtos/pastelchocolatenutella.png',  
 
-                price:14,
+                price:15,
                 quantidade:0,
             },{
                 id:'105',
@@ -287,7 +287,7 @@ data = [{
                 name:'Pastel Leite Condensado c/ Coco', 
                 img:'assets/images/produtos/pastelleitecondensadococo.png',  
 
-                price:14,
+                price:15,
                 quantidade:0,
             },{
                 id:'108',
@@ -393,14 +393,14 @@ data = [{
             name:'Tapiocas Doces',
             products:[{
                 id:'72',
-                name:'Tapioca Banana com Canela', 
+                name:'Tapioca Prestigio', 
                 img:'assets/images/produtos/tapiocabananacanela.png',  
 
-                price:14,
+                price:16,
                 quantidade:0,
             },{
                 id:'73',
-                name:'Tapioca Chocolate / Nutella', 
+                name:'Tapioca Chocolate ou Nutella', 
                 img:'assets/images/produtos/tapiocachocolatenutella.png',  
                 price:16,
                 quantidade:0,
