@@ -662,7 +662,7 @@ data = [{
                 key:'',
                 name:'Suco de Polpa', 
                 img:'assets/images/produtos/bebidacopogelolimaxo.png',  
-                price:12s,
+                price:12,
                 quantidade:0, 
             },{
                 id:'26',
