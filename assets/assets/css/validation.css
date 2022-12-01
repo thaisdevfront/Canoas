@@ -1,0 +1,110 @@
+.validation{
+    background-repeat:repeat ;
+    background-size: cover; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color:white;
+    padding:0px;
+    z-index: 999;
+    background-color: black;
+}
+
+.validation  span.number {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-weight: 200;
+
+}
+.validation .content {
+    width: 100%;
+    margin: auto;
+    padding-top: 40%;
+    transition: .3s;
+
+}
+.validation .content span {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+.validation .content h1 {
+    font-weight: 300;
+    margin: 50px 0 0;
+    padding: 20px;
+}
+.validation .content strong {
+    font-weight: 300;
+}
+.validation .content img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+     transition: .3s;
+
+}
+.validation .content p{
+    font-size: 11px;
+    width: 180px;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.validation form {
+    width: 85%;
+    margin: 0px auto;
+    position: absolute;
+    bottom: 50px;
+    left: 20px;
+}
+form img {
+    margin-top: 15px;
+    position: absolute;
+    z-index: 99;
+    width: 14px;
+    left: 14px;
+}select:invalid { color: red; }
+.validation button {
+    width: 150px;
+    margin: 10px auto;
+    display: block;
+    background-color: #FB6E3B;
+    color: white;
+    height: 35px;
+    border-radius: 40px;
+    position: relative;
+    width: 190px;
+    margin: 15px auto;
+    display: block;
+    background-color: #FB6E3B;
+    color: white;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+}
+.validation button img {
+    left: inherit;
+    right: inherit;
+    margin: 0;
+    padding: 1px 3px;
+}
+
+
+@media(max-height:510px){
+    .validation .content {
+     transition: .3s;
+        padding-top: 20px;
+    }
+
+    .validation .content img {
+        transition: .3s;
+     
+        width: 150px;
+    }
+    .socialmedia {
+        display: none;
+    }
+}
