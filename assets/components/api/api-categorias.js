@@ -394,7 +394,7 @@ data = [{
             products:[{
                 id:'72',
                 name:'Tapioca Prestigio', 
-                img:'assets/images/produtos/tapiocaprestigiop.png',  
+                img:'assets/images/produtos/tapiocaprestigio.png',  
 
                 price:16,
                 quantidade:0,
