@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <!-- <meta name="theme-color" content="#FB6E3B"> -->
-    <title>Canoas Ubatuba - Cardápio Digital</title>
+    <title>Delivery Adega Good Vibes Ubatuba - Cardápio Digital</title>
     <link rel="shortcut icon" href="favico.png" type="image/png">
     <link rel="stylesheet" href="assets/css/app.css">  
     <link rel="stylesheet" href="assets/css/validation.css">  
@@ -30,32 +30,34 @@
 <body>
 
        <!-- validation -->
-    <div class="validation" id="validation" style="    background-image: url(assets/images/bg-validation.png) ;    ">
-        <!-- <span class="number">12 99621 - 8661</span>  -->
+    <div class="validation" id="validation" style="    background-image: url(assets/images/bg.gif) ;    ">
+            
+            <span class="number"><img src="assets/images/WhatsApp-white.png" style="width: 16px;height: 16px;">12 99604 8083</span> 
 
         <div class="content">
             <img src="assets/images/logo.png" alt="">
-            
+            <h1>Good Vibes <strong style="color: #4BE8A0;">Adega Delivery</strong> </h1>
+            <p>Faça seu pedido sem filas, receba em sua casa.</p>
         </div>
 
         <form action="">
-            <h1>Faça seu pedido sem filas!</h1>
+            
 
-
-            <img src="assets/images/inputs/user.png" style="width: 16px;">
+            <img src="assets/images/user.png" style="width: 16px;">
             <input  id="userName" style="width: 88%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu nome" type="text" required> 
-                 
-            <div class="select">
-                <img src="assets/images/inputs/archive.png" style="margin-top: 16px;">
+                  
+            <div class="select" >
+                <img src="assets/images/archive.png" style="margin-top: 16px;">
                 <select id="selectValidate" required>
-                    <option value="1">Selecione a forma de retirada</option>
-                    <option value="2">Balcão</option>
-                    <option value="3">Mesa</option>
+                    <option value="1">Formas de retirada</option>
+                    <option value="2">Delivery</option>
+                    <option value="3">Balcão</option>
+                    <option value="4">Mesa</option>
                 </select> 
             </div>
 
             <button type="submit" onclick="validation(event)" value="submit">Cárdapio
-                <img src="assets/images/inputs/circle.png">
+                <img src="assets/images/circleblack.png">
             </button>
 
             
@@ -79,7 +81,7 @@
     <div class="menu">
         <ul>
           
-            <button><img src="assets/images/UserWhite.png" alt="" srcset=""></button> 
+            <button><img src="assets/images/user-black.png" alt="" srcset=""></button> 
              <button id="cartPreview"><img src="assets/images/shopping-cart.png" alt="" srcset=""></button>
             <button><img src="assets/images/menu.png" alt="" srcset=""></button>
         </ul>
@@ -87,7 +89,7 @@
 
 
     <div class="search">
-        <h2>O que deseja pedir hoje?</h2> 
+        <h2>O que deseja Beber hoje?</h2> 
         <form>
             <img src="assets/images/search.png" alt="">
             <input  onclick="getSearch(event)" type="text" placeholder="Buscar itens...">
@@ -117,20 +119,12 @@
      <div class="swiper mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="assets/images/bannercamarao.png" alt="" >
+            <img src="assets/images/banner.png" alt="" >
           </div>
           <div class="swiper-slide">
-            <img src="assets/images/bannerdrinks.png" alt="" >
+            <img src="assets/images/banner.png" alt="" >
           </div>
-          <div class="swiper-slide">
-            <img src="assets/images/bannercerveja.png" alt="" >
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/bannertapioca.png" alt="" >
-          </div>
-          <div class="swiper-slide">
-            <img src="assets/images/bannerpanqueca.png" alt="" >
-          </div>
+         
         </div>
         <div class="swiper-pagination"></div>
       </div>
