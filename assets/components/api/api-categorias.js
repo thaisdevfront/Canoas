@@ -1,161 +1,324 @@
 data = [{ 
-    id:'0C',
-    name:'Para Comer', 
+    id:Math.floor(Math.random() * 1000).toString(),
+    name:'Para Beber', 
     key:'Comer', 
-    image:'assets/images/IconComida-White.png',
-    image2:'assets/images/IconComida-Orange.png',
+    image:'assets/images/cat1.png',
+    image2:'assets/images/cat2.png',
         itens:[{ 
             id:'1SC',
-            name:'Porções', 
+            name:'Cervejas', 
             products:[{
-                id:'175',
-                name:'Porção Camarão Rosa Paulista', 
-                price:150, 
-                img:'assets/images/produtos/camaraorosapaulista.png',
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Heineken Long Neck', 
+                img:'assets/images/produtos/cervejaheilong.png',
+                price:8,
                 quantidade:0,
             },{
-                id:'180',
-                name:'Porção Camarão Rosa Dorê', 
-                price:130, 
-                img:'assets/images/produtos/camaraorosadore.png',
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Corona Long Neck', 
+                img:'assets/images/produtos/cervejacoronalong.png', 
+                price:9,
                 quantidade:0,
             },{
-                id:'150',
-                name:'Porção Camarão Paulista', 
-                price:100, 
-                img:'assets/images/produtos/camaraopaulista.png',
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Stella Long Neck', 
+                img:'assets/images/produtos/cervejastellalong.png', 
+                price:8,
                 quantidade:0,
             },{
-                id:'151',
-                name:'Porção Camarão a Dorê', 
-                price:80, 
-                img:'assets/images/produtos/camaraodore.png',
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Budweiser Long Neck', 
+                img:'assets/images/produtos/cervejabudlong.png',
+                price:7.5,
                 quantidade:0,
-
-
-                
             },{
-                id:'152',
-                name:'Porção Lula Dorê', 
-                price:80,
-                img:'assets/images/produtos/luladore.png',
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Skol Beets Long Neck', 
+                img:'assets/images/produtos/skolbeetslong.png',
+                price:12,
                 quantidade:0,
-
-
             },{
-                id:'153',
-                name:'Porção Peixe Tilápia', 
-                img:'assets/images/produtos/tilapia.png',
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:70,
+                name:'Beats GT Long Neck', 
+                img:'assets/images/produtos/gtbeets.png',
+                price:12.5,
                 quantidade:0,
-
-
             },{
-                id:'154',
-                name:'Porção Peixe Cação', 
-                img:'assets/images/produtos/cacao.png',
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:70,
+                name:'Cerveja Itaipava Malzbier Long Neck', 
+                img:'assets/images/produtos/cervejaitaipavalong.png', 
+                price:8,
                 quantidade:0,
-
-
             },{
-                id:'155',
-                name:'Porção Peixe Pescada', 
-                img:'assets/images/produtos/pescada.png', 
-                price:70,
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Black Princess Long Neck', 
+                img:'assets/images/produtos/cervejablackprincess.png', 
+                price:15,
                 quantidade:0,
-
-
             },{
-                id:'156',
-                name:'Porção Peixe Merluza', 
-                img:'assets/images/produtos/merluza.png', 
-                price:70,
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Heineken Lata', 
+                price:6.5, 
+                img:'assets/images/produtos/cervejaheilata.png',
                 quantidade:0,
-
-
             },{
-                id:'158',
-                name:'Porção Peixe Porquinho', 
-                img:'assets/images/produtos/porquinho.png', 
-                price:70,
-                quantidade:0,
+                id:Math.floor(Math.random() * 1000).toString(),
 
-
-            },{
-                id:'159',
-                name:'Fritas', 
-                img:'assets/images/produtos/fritas.png', 
-
-                price:40,
-                quantidade:0,
-
-
-            },{
-                id:'160',
-                name:'Fritas com Queijo', 
-                img:'assets/images/produtos/fritasqueijo.png', 
-
-                price:45,
-                quantidade:0,
-
-
-            },{
-                id:'161',
-                name:'Porção Mandioca', 
-                img:'assets/images/produtos/mandioca.png', 
-
-                price:40,
-                quantidade:0,
-
-
-            },{
-                id:'162',
-                name:'Porção Mandioca com Queijo', 
-                img:'assets/images/produtos/mandiocaqueijo.png', 
-
-                price:45,
-                quantidade:0,
-
-
-            },{
-                id:'164',
-                name:'Porção Calabresa', 
-                img:'assets/images/produtos/calabresa.png', 
-
-                price:55,
-                quantidade:0,
-
-
-            },{
-                id:'171',
-                name:'Molho Extra', 
-                img:'assets/images/produtos/molhoextra.png', 
-
-                price:3, 
-                quantidade:0,
-
-
-            },{
-                id:'172',
-                name:'Pão Extra', 
-                img:'assets/images/produtos/paoextra.png', 
-
+                name:'Cerveja Itaipava Lata', 
                 price:4, 
+                img:'assets/images/produtos/cervejaitaipavalata.png',
                 quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
 
+                name:'Cerveja Brahma lata', 
+                price:4.5, 
+                img:'assets/images/produtos/cervejabrahmalata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
 
+                name:'Cerveja Skol lata', 
+                price:4.5, 
+                img:'assets/images/produtos/cervejaskollata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Amstel Lata', 
+                price:5,
+                img:'assets/images/produtos/cervejaamstellata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Spaten Lata', 
+                price:6,
+                img:'assets/images/produtos/cervejaspatenlata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Petra Lata', 
+                img:'assets/images/produtos/cervejapetralata.png', 
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Império Lata', 
+                price:4.5,
+                img:'assets/images/produtos/cervejaimperiolata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Brahma Duplo Malte Lata', 
+                img:'assets/images/produtos/cervejabrahmaduplo.png', 
+                price:5, 
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Eisebahn lata', 
+                price:6.3, 
+                img:'assets/images/produtos/cervejaeisebahnlata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Skol Puro Malte lata', 
+                price:5, 
+                img:'assets/images/produtos/cervejaskolpurolata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Cerveja Original lata', 
+                price:6.5, 
+                img:'assets/images/produtos/cervejaoriginallata.png',
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Budweiser Lata', 
+                img:'assets/images/produtos/cervejabudlata.png', 
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Itaipava 0%', 
+                img:'assets/images/produtos/cervejaitaipava0.png', 
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Brahma 0%', 
+                img:'assets/images/produtos/cervejabrahma0.png', 
+                price:6,
+                quantidade:0,
             }]
         
         },{ 
-            id:'2',
-            name:'Lanches',
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Whisky',
             products:[{
-                id:'112',
-                name:'Hot Dog', 
-                img:'assets/images/produtos/hotdog.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Cavalo Branco', 
+                img:'assets/images/produtos/whiskycavalobranco.png',  
+                price:95,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Red Label 1L', 
+                img:'assets/images/produtos/whiskredlabel.png',  
+                price:125,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Black Label', 
+                img:'assets/images/produtos/whiskblacklabel.png',  
+                price:125,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Jack Daniels', 
+                img:'assets/images/produtos/whiskjackdaniels.png',  
+                price:160,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Ballantines', 
+                img:'assets/images/produtos/Whiskyballantines.png',  
+                price:120,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Buchanans', 
+                img:'assets/images/produtos/Whiskybuchanans.png',  
+                price:200,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Gold Label', 
+                img:'assets/images/produtos/Whiskygoldlabel.png',  
+                price:250,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Passport', 
+                img:'assets/images/produtos/whiskpassport.png',  
+                price:50,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Passport Mel', 
+                img:'assets/images/produtos/whiskypassportmel.png',  
+                price:52,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Chivas Regal', 
+                img:'assets/images/produtos/whiskychivasregal.png',  
+                price:170,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Famuous One', 
+                img:'assets/images/produtos/whiskfamuousonel.png',  
+                price:25,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Old Star', 
+                img:'assets/images/produtos/whiskoldstar.png',  
+                price:20,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Black Stone', 
+                img:'assets/images/produtos/whiskblackstone.png',  
+                price:35,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Whisky Master Gold', 
+                img:'assets/images/produtos/wiskgold.png',  
+                price:25,
+                quantidade:0, 
+            }]
+       
+        
+        },{ 
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Copão de Whisky',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Adicional + Red Bull', 
+                img:'assets/images/produtos/energeticoredbull.png',  
+                price:10,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Copão Whisky Cavalo Branco', 
+                img:'assets/images/produtos/copocavalobranco.png',  
+                price:20,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Copão Whisky Red Label 1L', 
+                img:'assets/images/produtos/coporedlabel.png',  
+                price:25,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Copão Whisky Jack Daniels', 
+                img:'assets/images/produtos/copojackdaniels.png',  
+                price:30,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Copão Whisky Passport', 
+                img:'assets/images/produtos/copopassport.png',  
+                price:15,
+                quantidade:0, 
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Copão Whisky Passport Mel', 
+                img:'assets/images/produtos/copopassportmel.png',  
                 price:20,
                 quantidade:0, 
             }]
@@ -163,393 +326,500 @@ data = [{
         
         },{ 
             id:'3',
-            name:'Pastéis',
+            name:'Fardos',
             products:[{
-                id:'90',
-                name:'Pastel Carne ', 
-                img:'assets/images/produtos/pastelcarne.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Heineken', 
+                img:'assets/images/produtos/fardoheineken.png',  
+                price:66,
                 quantidade:0,
             },{
-                id:'91',
-                name:'Pastel Queijo', 
-                img:'assets/images/produtos/pastelqueijo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Itaipava', 
+                img:'assets/images/produtos/fardoitaipava.png',  
+                price:42,
                 quantidade:0,
             },{
-                id:'92',
-                name:'Pastel Bauru', 
-                img:'assets/images/produtos/pastelbauru.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Brahma', 
+                img:'assets/images/produtos/fardobrahma.png',  
+                price:48,
                 quantidade:0,
             },{
-                id:'93',
-                name:'Pastel Calabresa', 
-                img:'assets/images/produtos/pastelcalabresa.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Skol', 
+                img:'assets/images/produtos/fardoskol.png',  
+                price:48,
                 quantidade:0,
             },{
-                id:'94',
-                name:'Pastel Frango', 
-                img:'assets/images/produtos/pastelfrango.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Amstel', 
+                img:'assets/images/produtos/fardoamstel.png',  
+                price:49,
                 quantidade:0,
             },{
-                id:'95',
-                name:'Pastel Pizza', 
-                img:'assets/images/produtos/pastelpizza.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Spaten', 
+                img:'assets/images/produtos/fardospaten.png',  
+                price:60,
                 quantidade:0,
             },{
-                id:'96',
-                name:'Pastel Brócolis', 
-                img:'assets/images/produtos/pastelbrocolis.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Petra', 
+                img:'assets/images/produtos/fardopetra.png',  
+                price:49,
                 quantidade:0,
             },{
-                id:'98',
-                name:'Pastel Carne com Queijo', 
-                img:'assets/images/produtos/pastelcarnequeijo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Fardo Cerveja Império', 
+                img:'assets/images/produtos/fardoimperio.png',  
+                price:45.6,
                 quantidade:0,
             },{
-                id:'99',
-                name:'Pastel Brócolis com Queijo', 
-                img:'assets/images/produtos/pastelbrocolisqueijo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Fardo Cerveja Brahma Duplo Malte', 
+                img:'assets/images/produtos/fardobrahmaduplo.png',  
+                price:48,
                 quantidade:0,
             },{
-                id:'100',
-                name:'Pastel Frango com Catupiry', 
-                img:'assets/images/produtos/pastelfrangocatupiry.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Fardo Cerveja Eisenbahn', 
+                img:'assets/images/produtos/fardiei.png',  
+                price:64,
                 quantidade:0,
             },{
-                id:'101',
-                name:'Pastel Palmito', 
-                img:'assets/images/produtos/pastelpalmito.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:14,
+                name:'Fardo Cerveja Skol Puro Malte', 
+                img:'assets/images/produtos/fardoskolpuromalte.png',  
+                price:48,
                 quantidade:0,
             },{
-                id:'102',
-                name:'Pastel Camarão', 
-                img:'assets/images/produtos/pastelcamarao.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Fardo Cerveja Original', 
+                img:'assets/images/produtos/fardooriginal.png',  
+                price:64,
                 quantidade:0,
             }]
         
         
         },{  
-            id:'4',
-            name:'Pastéis Doces',
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Vodkas',
             products:[{
-                id:'103',
-                name:'Pastel Prestigio', 
-                img:'assets/images/produtos/pastelprestigio.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Vodka Smirnoff Ice Long Neck', 
+                img:'assets/images/produtos/smirnoffice.png',  
+                price:13,
                 quantidade:0,
             },{
-                id:'104',
-                name:'Pastel Chocolate ou Nutella', 
-                img:'assets/images/produtos/pastelchocolatenutella.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Vodka Smirnorff Lata', 
+                img:'assets/images/produtos/smirnofficelata.png',  
+                price:9.5,
                 quantidade:0,
             },{
-                id:'105',
-                name:'Pastel Chocolate com Banana', 
-                img:'assets/images/produtos/pastelchocolatebanana.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Vodka Smirnoff 1L', 
+                img:'assets/images/produtos/vodkasmirnoff1l.png',  
+
+                price:49,
                 quantidade:0,
             },{
-                id:'106',
-                name:'Pastel Chocolate com Morango', 
-                img:'assets/images/produtos/pastelchocolatemorango.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Vodka Ousadia', 
+                img:'assets/images/produtos/ousadia.png',  
+                price:7.5,
                 quantidade:0,
             },{
-                id:'107',
-                name:'Pastel Leite Condensado c/ Coco', 
-                img:'assets/images/produtos/pastelleitecondensadococo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Vodka Smirnorff Sabor', 
+                img:'assets/images/produtos/smirnoffsabor.png',  
+                price:58,
                 quantidade:0,
             },{
-                id:'108',
-                name:'Pastel Nutella com Morango', 
-                img:'assets/images/produtos/pastelchocolatemorango.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Vodka Askov', 
+                img:'assets/images/produtos/askov.png',  
+
+                price:18,
                 quantidade:0,
             },{
-                id:'109',
-                name:'Pastel Nutella com Banana', 
-                img:'assets/images/produtos/pastelchocolatebanana.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Vodka Askov Sabor 1L', 
+                img:'assets/images/produtos/vodkaaskovsabor.png',  
+
+                price:18,
                 quantidade:0,
-            }  ]     
+            },]     
         
 
         },{  
-            id:'5',
-            name:'Tapiocas',
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Gin',
             products:[{
-                id:'60',
-                name:'Tapioca Carne', 
-                img:'assets/images/produtos/tapiocacarne.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Gin Tanqueray', 
+                img:'assets/images/produtos/gin.png',  
+                price:199,
                 quantidade:0,
             },{
-                id:'61',
-                name:'Tapioca Queijo', 
-                img:'assets/images/produtos/tapiocaqueijo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Gin Rose', 
+                img:'assets/images/produtos/ginrose.png',  
+                price:37,
                 quantidade:0,
             },{
-                id:'62',
-                name:'Tapioca Bauru', 
-                img:'assets/images/produtos/tapiocabauru.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Gin Flowers', 
+                img:'assets/images/produtos/ginflowers.png',  
+                price:9.5,
                 quantidade:0,
-            },{
-                id:'63',
-                name:'Tapioca Frango', 
-                img:'assets/images/produtos/tapiocafrango.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'64',
-                name:'Tapioca Pizza', 
-                img:'assets/images/produtos/tapiocapizza.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'65',
-                name:'Tapioca Brócolis', 
-                img:'assets/images/produtos/tapiocabrocolis.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'67',
-                name:'Tapioca Carne com Queijo', 
-                img:'assets/images/produtos/tapiocacarnequeijo.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'68',
-                name:'Tapioca Brócolis com Queijo', 
-                img:'assets/images/produtos/tapiocabrocolisqueijo.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'69',
-                name:'Tapioca Frango com Queijo', 
-                img:'assets/images/produtos/tapiocafrangoqueijo.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'70',
-                name:'Tapioca Palmito', 
-                img:'assets/images/produtos/tapiocapalmito.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'71',
-                name:'Tapioca Camarão', 
-                img:'assets/images/produtos/tapiocacamarao.png',  
-
-                price:18,
-                quantidade:0,
-            } ]      
+            }]      
         
         },{  
-            id:'6',
-            name:'Tapiocas Doces',
-            products:[{
-                id:'72',
-                name:'Tapioca Prestigio', 
-                img:'assets/images/produtos/tapiocaprestigio.png',  
+            id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
-                quantidade:0,
-            },{
-                id:'73',
-                name:'Tapioca Chocolate ou Nutella', 
-                img:'assets/images/produtos/tapiocachocolatenutella.png',  
-                price:16,
-                quantidade:0,
-            },{
-                id:'74',
-                name:'Tapioca Chocolate com Banana', 
-                img:'assets/images/produtos/tapiocachocolatebanana.png',  
+            name:'Pinga',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'51 Pinga 1L', 
+                img:'assets/images/produtos/51.png',  
                 price:17,
                 quantidade:0,
             },{
-                id:'75',
-                name:'Tapioca Chocolate com Morango', 
-                img:'assets/images/produtos/tapiocachocolatemorango.png',  
-                price:17,
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'51 Ice Long Neck', 
+                img:'assets/images/produtos/pinga51long.png',  
+                price:7.5,
                 quantidade:0,
             },{
-                id:'76',
-                name:'Tapioca Leite Condensado c/ Coco', 
-                img:'assets/images/produtos/tapiocaleitecoco.png',  
-                price:16,
-                quantidade:0,
-            },{
-                id:'77',
-                name:'Tapioca Nutella com Morango', 
-                img:'assets/images/produtos/tapiocanutellamorango.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Pitu Pinga', 
+                img:'assets/images/produtos/52.png',  
                 price:18,
                 quantidade:0,
             },{
-                id:'78',
-                name:'Tapioca Nutella com Banana', 
-                img:'assets/images/produtos/tapiocanutellabanana.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Velho Barreiro', 
+                img:'assets/images/produtos/53.png',  
                 price:18,
                 quantidade:0,
-            }       
-        ]       
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Corote', 
+                img:'assets/images/produtos/54.png',  
+                price:5.5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Dreher', 
+                img:'assets/images/produtos/55.png',  
+                price:18,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Contini', 
+                img:'assets/images/produtos/pingacontini.png',  
+                price:35,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Jurupinga', 
+                img:'assets/images/produtos/pingajurupinga.png',  
+                price:35,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'São Francisco', 
+                img:'assets/images/produtos/pingasaofrancisco.png',  
+                price:28,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Luizence', 
+                img:'assets/images/produtos/pingaluizence.png',  
+                price:32,
+                quantidade:0,
+            }]       
         
         },{  
-            id:'7',
-            name:'Panquecas',
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Copão de Vodka',
             products:[{
-                id:'30',
-                name:'Panqueca Carne', 
-                img:'assets/images/produtos/panquecacarne.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Copão de Smirnoff', 
+                img:'assets/images/produtos/coposmirnoff.png',  
+                price:15,
                 quantidade:0,
             },{
-                id:'31',
-                name:'Panqueca Queijo', 
-                img:'assets/images/produtos/panquecaqueijo.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:16,
+                name:'Copão de Askov de Sabor', 
+                img:'assets/images/produtos/copoaskovsabor.png',  
+                price:10,
                 quantidade:0,
-            },{
-                id:'32',
-                name:'Panqueca Bauru', 
-                img:'assets/images/produtos/panquecabauru.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'33',
-                name:'Panqueca Frango', 
-                img:'assets/images/produtos/panquecafrango.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'34',
-                name:'Panqueca Pizza', 
-                img:'assets/images/produtos/panquecapizza.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'35',
-                name:'Panqueca Brócolis', 
-                img:'assets/images/produtos/panquecabrocolis.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'37',
-                name:'Panqueca Carne com Queijo', 
-                img:'assets/images/produtos/panquecacarnequeijo.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'38',
-                name:'Panqueca Brócolis com Queijo', 
-                img:'assets/images/produtos/panquecabrocolisqueijo.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'39',
-                name:'Panqueca Frango com Catupiry', 
-                img:'assets/images/produtos/panquecafrangocatupiry.png',  
-
-                price:18,
-                quantidade:0,
-            },{
-                id:'40',
-                name:'Panqueca Palmito', 
-                img:'assets/images/produtos/panquecapalmito.png',  
-
-                price:16,
-                quantidade:0,
-            },{
-                id:'41',
-                name:'Panqueca Camarão', 
-                img:'assets/images/produtos/panquecacamarao.png',  
-
-                price:18,
-                quantidade:0,
-            }       
-        ]    
+            }]    
      
         },{  
-            id:'8Cm',
-            name:'Mini Pizzas',
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Doses',
             products:[{
-                id:'176',
-                name:'Pizza Mini Mussarela', 
-                img:'assets/images/produtos/minimussarela.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Dose Contine', 
+                img:'assets/images/produtos/dosecontini.png',  
+                price:7,
                 quantidade:0,
             },{
-                id:'177',
-                name:'Pizza Mini Presunto e Queijo', 
-                img:'assets/images/produtos/minipresuntomussarela.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Dose Dreher', 
+                img:'assets/images/produtos/dosedreher.png',  
+                price:4,
                 quantidade:0,
             },{
-                id:'178',
-                name:'Pizza Mini Calabresa', 
-                img:'assets/images/produtos/minicalabresa.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
-                price:15,
+                name:'Dose Pitu', 
+                img:'assets/images/produtos/dosepitu.png',  
+                price:4,
                 quantidade:0,
             },{
-                id:'179',
-                name:'Pizza Mini Brócolis', 
-                img:'assets/images/produtos/minibrocolis.png',  
+                id:Math.floor(Math.random() * 1000).toString(),
 
+                name:'Dose 51', 
+                img:'assets/images/produtos/dose51.png',  
+                price:3,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Dose Jurupinga', 
+                img:'assets/images/produtos/dosejurupinga.png',  
+                price:7,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Dose São Francisco', 
+                img:'assets/images/produtos/dosesaofrancisco.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Dose Velho Barreiro', 
+                img:'assets/images/produtos/dosevelhobarreiro.png',  
+                price:3,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Dose Luizence', 
+                img:'assets/images/produtos/doseluizence.png',  
+                price:6,
+                quantidade:0,
+            }]    
+     
+        },{  
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Vinhos',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Vinho Santome', 
+                img:'assets/images/produtos/56.png',  
+                price:19,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Vinho Cantinho do Vale', 
+                img:'assets/images/produtos/57.png',  
+                price:6.5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Vinho Catuaba Selvagem', 
+                img:'assets/images/produtos/vinhocatuaba.png',  
+                price:18,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Vinho Garrafa 1 L', 
+                img:'assets/images/produtos/vinhogarrafa1l.png',  
+                price:25,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Vinho Draft', 
+                img:'assets/images/produtos/vinhodraft.png',  
                 price:15,
+                quantidade:0,
+            }]    
+     
+        },{  
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Energéticos',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Energético Red Bull 250ml', 
+                img:'assets/images/produtos/energeticoredbull.png',  
+                price:12,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Energético Monster 473ml', 
+                img:'assets/images/produtos/energeticomonster.png',  
+                price:13,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Energético 2L', 
+                img:'assets/images/produtos/energetico2l.png',  
+                price:8.5,
+                quantidade:0,
+            }]    
+     
+        },{  
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Refrigerantes',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Coca Cola Lata', 
+                img:'assets/images/produtos/cocalata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Guaraná Lata', 
+                img:'assets/images/produtos/guaranalata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Fanta Laranja Lata', 
+                img:'assets/images/produtos/fantallata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Fanta Uva Lata', 
+                img:'assets/images/produtos/fantaulata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Tônica Lata', 
+                img:'assets/images/produtos/tonicalata.png',  
+                price:5,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Guaraná 1L', 
+                img:'assets/images/produtos/guarana1l.png',  
+
+                price:6,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Coca 2L', 
+                img:'assets/images/produtos/coca2l.png',  
+                price:12,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Iti 2L', 
+                img:'assets/images/produtos/refriiti2l.png',  
+                price:6,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Fanta Laranja 2L', 
+                img:'assets/images/produtos/refrifanta2l.png',  
+                price:10,
+                quantidade:0,
+            }]    
+     
+        },{  
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Águas',
+            products:[{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Água sem Gás 500ml', 
+                img:'assets/images/produtos/aguasemgas500ml.png',  
+                price:3,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Água sem Gás 1 L', 
+                img:'assets/images/produtos/aguasemgas1l.png',  
+                price:6,
+                quantidade:0,
+            },{
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Água com Gás 500ml', 
+                img:'assets/images/produtos/aguacomgas500ml.png',  
+                price:4,
                 quantidade:0,
             }]    
      
@@ -557,413 +827,102 @@ data = [{
 
         ]
     },{ 
-    id:'1C',
-    name:'Para Beber', 
+        id:Math.floor(Math.random() * 1000).toString(),
+
+    name:'Conveniência', 
     key:'Beber',
-    image:'assets/images/IconBebidas-White.png',
-    image2:'assets/images/IconBebidas-Orange.png',
+    image:'assets/images/cat4.png',
+    image2:'assets/images/convenienciawhite1.png',
 
         itens:[{ 
-            id:'4c',
-            name:'Bebidas', 
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Mais', 
             products:[{
-                id:'1',
+                id:Math.floor(Math.random() * 1000).toString(),
+
                 key:'',
-                name:'Água sem Gás', 
-                img:'assets/images/produtos/bebidaaguasgas.png',  
-                price:5,
+                name:'Gelo de Coco', 
+                img:'assets/images/produtos/gelococo.png',  
+                price:4,
                 quantidade:0, 
             },{
-                id:'2',
+                id:Math.floor(Math.random() * 1000).toString(),
+
                 key:'',
-                name:'Água com Gás', 
-                img:'assets/images/produtos/bebidaaguacgas.png',  
-                price:5,
-                quantidade:0, 
-            },{
-                id:'3',
-                key:'',
-                name:'H20 Limão', 
-                img:'assets/images/produtos/bebidah2o.png',  
-                price:8,
-                quantidade:0, 
-            },{
-                id:'5',
-                key:'',
-                name:'Refrigerante lata', 
-                img:'assets/images/produtos/bebidarefrilata.png',  
-                price:7,
-                quantidade:0, 
-            },{
-                id:'6',
-                key:'',
-                name:'Refrigerante Zero lata ', 
-                img:'assets/images/produtos/bebidarefrizerolata.png',  
-                price:7,
-                quantidade:0, 
-            },{
-                id:'7',
-                key:'',
-                name:'Schweppes', 
-                img:'assets/images/produtos/bebidasweppeslata.png',  
-                price:8,
-                quantidade:0, 
-            },{
-                id:'8',
-                key:'',
-                name:'Tônica', 
-                img:'assets/images/produtos/bebidatonicalata.png',  
-                price:8,
-                quantidade:0, 
-            },{
-                id:'9',
-                key:'',
-                name:'Copo c/ Gelo', 
-                img:'assets/images/produtos/bebidacopogelo.png',  
-                price:5,
-                quantidade:0, 
-            },{
-                id:'10',
-                key:'',
-                name:'Copo c/ Gelo e Limão', 
-                img:'assets/images/produtos/bebidacopogelolimao.png',  
-                price:5,
-                quantidade:0, 
-            },{
-                id:'11',
-                key:'',
-                name:'Copo Limão e Sal', 
-                img:'assets/images/produtos/bebidacopolimaosal.png',  
-                price:5,
-                quantidade:0, 
-            },{
-                id:'20',
-                key:'',
-                name:'Suco Natural', 
-                img:'assets/images/produtos/bebidasuconatural.png',  
-                price:15,
-                quantidade:0, 
-            },{
-                id:'21',
-                key:'',
-                name:'Suco natural com 2 Frutas', 
-                img:'assets/images/produtos/bebidasucoduasfrutas.png',  
-                price:18,
-                quantidade:0, 
-            },{
-                id:'22',
-                key:'',
-                name:'Suco Natural com Leite Condensado', 
-                img:'assets/images/produtos/bebidasuconaturalleitec.png',  
-                price:18,
-                quantidade:0, 
-            },{
-                id:'25',
-                key:'',
-                name:'Suco de Polpa', 
-                img:'assets/images/produtos/bebidasucopolpa.png',  
-                price:12,
-                quantidade:0, 
-            },{
-                id:'26',
-                key:'',
-                name:'Suco de Polpa com Leite condensado', 
-                img:'assets/images/produtos/bebidasucopolpaleitec.png',  
-                price:14,
-                quantidade:0, 
-            },{
-                id:'27',
-                key:'',
-                name:'Coco Gelado', 
-                img:'assets/images/produtos/bebidascocogelado.png',  
-                price:10,
+                name:'Halls', 
+                img:'assets/images/produtos/halls.png',  
+                price:3,
                 quantidade:0, 
             }]
         
         },{ 
-            id:'5c',
-            name:'Cervejas', 
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Salgadinhos', 
             products:[{
-                id:'130',
-                name:'Cerveja Skol / Brahma / Itaipava Lata', 
-                img:'assets/images/produtos/cervejalatas.png',  
-                price:6, 
+                                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Salgadinho Fofura', 
+                img:'assets/images/produtos/fofura.png',  
+                price:4, 
                 quantidade:0,
             },{
-                id:'131',
-                name:'Cerveja Brahma Duplo / Império / Petra Lata', 
-                img:'assets/images/produtos/cervejaduplolata.png',  
-                price:8, 
+                                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Salgadinho Torcida', 
+                img:'assets/images/produtos/torcida.png',  
+                price:3, 
                 quantidade:0,
-
-            },{
-                id:'132',
-                name:'Cerveja Heineken / Bud / Stella Lata', 
-                img:'assets/images/produtos/cervejabudlata.png',  
-                price:10,
-                quantidade:0, 
-
-            },{
-                id:'134',
-                name:'Cerveja Corona / Heineken Long Neck', 
-                img:'assets/images/produtos/cervejalong.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'135',
-                name:'Cerveja Bud / Stella Long Neck', 
-                img:'assets/images/produtos/cervejabudestellalongneck.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'136',
-                name:'Cerveja sem alcool Long Neck ', 
-                img:'assets/images/produtos/cervejaheinekensalcoollongneck.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'191',
-                name:'Red Bull Energético', 
-                img:'assets/images/produtos/cervejaredbull.png',  
-                price:16,
-                quantidade:0, 
-
-            },{
-                id:'192',
-                name:'Monster Energético', 
-                img:'assets/images/produtos/cervejamonster.png',  
-                price:16,
-                quantidade:0, 
 
             }]
         },{ 
-            id:'6c',
-            name:'Caipirinhas', 
+            id:Math.floor(Math.random() * 1000).toString()
+            ,
+            name:'Espetinhos', 
             products:[{
-                id:'140',
-                name:'Caipirinha Pinga', 
-                img:'assets/images/produtos/caipirinhapinga.png',  
-                price:22, 
+                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Salgadinho Fofura', 
+                img:'assets/images/produtos/fofura.png',  
+                price:4, 
                 quantidade:0,
             },{
-                id:'141',
-                name:'Caipirinha Vodka Orloff', 
-                img:'assets/images/produtos/caipirinhaorloff.png',  
-                price:25, 
+                id:Math.floor(Math.random() * 1000).toString(),
+                
+                name:'Salgadinho Torcida', 
+                img:'assets/images/produtos/torcida.png',  
+                price:3, 
                 quantidade:0,
-
-            },{
-                id:'142',
-                name:'Caipirinha Vodka Smirnoff', 
-                img:'assets/images/produtos/caipirinhasmirnoff.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'143',
-                name:'Caipirinha Rum', 
-                img:'assets/images/produtos/caipirinharum.png',  
-                price:25,
-                quantidade:0, 
-
-            },{
-                id:'145',
-                name:'Caipirinha Cachaça', 
-                img:'assets/images/produtos/caipirinhacachaca.png',  
-                price:23,
-                quantidade:0, 
-
-            },{
-                id:'146',
-                name:'Caipirinha com Duas Frutas', 
-                img:'assets/images/produtos/caipirinhaduasfrutas.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'147',
-                name:'Caipirinha com Pimenta', 
-                img:'assets/images/produtos/caipirinhapimenta.png',  
-                price:26,
-                quantidade:0, 
-
-            },{
-                id:'149',
-                name:'Caipirinha Saque', 
-                img:'assets/images/produtos/caipirinhasaque.png',  
-                price:23,
-                quantidade:0, 
 
             }]
         },{ 
-            id:'7c',
-            name:'Batidas', 
+            id:Math.floor(Math.random() * 1000).toString(),
+
+            name:'Espetinhos', 
             products:[{
-                id:'185',
-                name:'Batida Pinga', 
-                img:'assets/images/produtos/batidapinga.png',  
-                price:20, 
+                                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Salgadinho Fofura', 
+                img:'assets/images/produtos/fofura.png',  
+                price:4, 
                 quantidade:0,
             },{
-                id:'107C',
-                name:'Batida Cachaça', 
-                img:'assets/images/produtos/batidacachaca.png',  
-                price:23, 
+                                id:Math.floor(Math.random() * 1000).toString(),
+
+                name:'Salgadinho Torcida', 
+                img:'assets/images/produtos/torcida.png',  
+                price:3, 
                 quantidade:0,
-
-            },{
-                id:'186',
-                name:'Batida Vodka Orloff', 
-                img:'assets/images/produtos/batidaorloff.png',  
-                price:25,
-                quantidade:0, 
-
-            },{
-                id:'110',
-                name:'Batida Vodka Smirnoff', 
-                img:'assets/images/produtos/batidasmirnoff.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'221',
-                name:'Batida Espanhola', 
-                img:'assets/images/produtos/batidaespanhola.png',  
-                price:22,
-                quantidade:0, 
 
             }]
-        },{ 
-            id:'8c',
-            name:'Doses', 
-            products:[{
-                id:'201',
-                name:'Dose Pinga', 
-                img:'assets/images/produtos/dosepinga.png',  
-                price:5, 
-                quantidade:0,
-            },{
-                id:'202',
-                name:'Dose Ypioca', 
-                img:'assets/images/produtos/doseypioca.png',  
-                price:8, 
-                quantidade:0,
-
-            },{
-                id:'203',
-                name:'Dose Cinar', 
-                img:'assets/images/produtos/dosecinar.png',  
-                price:10,
-                quantidade:0, 
-
-            },{
-                id:'204',
-                name:'Dose Cachaça', 
-                img:'assets/images/produtos/dosecachaca.png',  
-                price:8,
-                quantidade:0, 
-
-            },{
-                id:'205',
-                name:'Dose Vodka Smirnoff / Orloff', 
-                img:'assets/images/produtos/dosevodka.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'206',
-                name:'Dose Campare', 
-                img:'assets/images/produtos/dosecampare.png',  
-                price:18,
-                quantidade:0, 
-
-            },{
-                id:'207',
-                name:'Dose Martini', 
-                img:'assets/images/produtos/dosemartini.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'208',
-                name:'Dose Contine', 
-                img:'assets/images/produtos/dosecontine.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'209',
-                name:'Dose Jurupinga', 
-                img:'assets/images/produtos/dosejurupinga.png',  
-                price:12,
-                quantidade:0, 
-
-            },{
-                id:'210',
-                name:'Dose Conhaque', 
-                img:'assets/images/produtos/doseconhaque.png',  
-                price:8,
-                quantidade:0, 
-
-            },{
-                id:'211',
-                name:'Drink Cuba libre', 
-                img:'assets/images/produtos/dosecubralibre.png',  
-                price:20,
-                quantidade:0, 
-
-            },{
-                id:'212',
-                name:'Drink Gin Tônica', 
-                img:'assets/images/produtos/dosegintonica.png',  
-                price:20,
-                quantidade:0, 
-
-            },{
-                id:'213',
-                name:'Dose Rum', 
-                img:'assets/images/produtos/doserum.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'214',
-                name:'Dose Gin', 
-                img:'assets/images/produtos/dosegin.png',  
-                price:14,
-                quantidade:0, 
-
-            },{
-                id:'224',
-                name:'Drink Pina Colada', 
-                img:'assets/images/produtos/dosepinacolada.png',  
-                price:22,
-                quantidade:0, 
-
-            },{
-                id:'227',
-                name:'Drink Canoa Beat', 
-                img:'assets/images/produtos/dosecanoasbeat.png',  
-                price:28,
-                quantidade:0, 
-
-            },{
-                id:'241',
-                name:'Dose Whisky Passport', 
-                img:'assets/images/produtos/dosepassport.png',  
-                price:18,
-                quantidade:0, 
-
-            }]
-        }  
-        ]
+        }]
     }
 
 
 ]
+
+
 var apiContainer=document.getElementById('api') 
 var categoriesContainer=document.getElementById('categories') 
 
@@ -971,6 +930,7 @@ var categoriesContainer=document.getElementById('categories')
  getApi=(container)=>{
     container.innerHTML =` <div class="tab"> </div>`;
     prods=""
+   
     data.map((apiData)=>{ 
          
         container.childNodes[1].innerHTML += ` 
@@ -1094,8 +1054,7 @@ var categoriesContainer=document.getElementById('categories')
       input=document.getElementById(inputProd)
       inputSearch=document.getElementById(inputProd+'search')
       
-    console.log(ProdThis)
-    console.log(inputProd)
+    
  
     data.map((apiData)=>{   
         apiData.itens.map((itensMap)=>{     
@@ -1140,7 +1099,7 @@ var categoriesContainer=document.getElementById('categories')
    retirada="";
 
     //  url = "https://wa.me/5512982969703?text=" // Seu numero test
-     url = "https://wa.me/551296218661?text=" // Seu numero Produção
+     url = "https://wa.me/5512996048083?text=" // Seu numero Produção
    + "*Pedido via APP* <3" + "%0a" // Mensagem personalizada
    + "%0a" // Quebra de linhas
    + "*Nome*: " + inputUserName + "%0a" // Dados do formulário
@@ -1237,21 +1196,32 @@ var categoriesContainer=document.getElementById('categories')
             
 
             <div class="select">
-            <img src="assets/images/inputs/archive.png" style="margin-top: 16px;"/>
-
+                <img src="assets/images/inputs/archive.png" />
                 <select onchange="formaRetirada()" id="selectCheckout" > 
-
                     <option value="1">Selecione a forma de retirada</option>
+                    <option value="delivery">Delivery</option>
                     <option value="balcao">Balcão</option>
                     <option value="mesa">Mesa</option>
                 </select>
             </div>
-            <div class="select"  style="display:none;">
-            <img src="assets/images/inputs/mesa.png" style="margin-top: 16px;"/ >
 
+            <div id="locationCheckout" style="display: block;position: relative;">
+            <label>
+            Endereço:
+            </label>
+                <img src="assets/images/inputs/archive.png" style="margin-top: 35px;"/>
+
+            <input id="userName" style="width: 86%;height: 40px;margin-bottom: 5px !important;" placeholder="Digite seu endereço" type="text" required="">
+
+            </div>
+            <div class="select"  style="display:none;">
+            <img src="assets/images/inputs/mesa.png" style="margin-top: 35px;"/ >
+            <label>
+            Selecione a mesa:
+            </label>
             <select  id="selectMesaCheckout" > 
 
-                <option value="0">Selecione a Mesa</option>
+                <option value="0">Mesa</option>
                 <option value="1">01</option>
                 <option value="2">02</option>
                 <option value="3">03</option>
@@ -1281,18 +1251,25 @@ var categoriesContainer=document.getElementById('categories')
         
         `;
         selectCheck=document.getElementById('selectCheckout')
+        locationCheckout=document.getElementById('locationCheckout')
         optionsCheck=selectCheck.options[selectCheck.selectedIndex].text
         retiradavalue=0
         // VALIDA CAMPO HOME
-        if(text=="Mesa"){
+        console.log(text)
+        if(text=="mesa"){
             mesaCheck=document.getElementById('selectMesaCheckout')
             mesaCheck.parentNode.style.cssText="display:block"
+        }
+        if(text=="Delivery"){
+            locationCheckout=document.getElementById('locationCheckout')
+            locationCheckout.style.cssText="display:block"
         }
 
         // VALIDA CAMPO CHECKOUT 
         if(optionsCheck=="Mesa"){
             
             mesaCheck.parentNode.style.cssText="display:block"
+            locationCheckout.style.cssText="display:none"
 
         }
         containerCheckout.style.cssText="display:block"
@@ -1302,12 +1279,19 @@ var categoriesContainer=document.getElementById('categories')
        
         retiradavalue=document.getElementById('selectCheckout').value
         mesaCheck=document.getElementById('selectMesaCheckout')
-
+        locationCheckout=document.getElementById('locationCheckout')
+ 
         if(retiradavalue=='mesa'){
             mesaCheck.parentNode.style.cssText="display:block"
+            locationCheckout.style.cssText="display:none"
 
         }else if(retiradavalue=='balcao'){
             mesaCheck.parentNode.style.cssText="display:none"
+            locationCheckout.style.cssText="display:none"
+
+        }else if(retiradavalue=='delivery'){
+            mesaCheck.parentNode.style.cssText="display:none"
+            locationCheckout.style.cssText="display:block"
 
         }
 
